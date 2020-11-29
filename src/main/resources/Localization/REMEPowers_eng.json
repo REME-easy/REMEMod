@@ -1,0 +1,82 @@
+{
+  "REME_FearOfPainPower": {
+    "NAME": "Fear Of Pain",
+    "DESCRIPTIONS": [
+      "Whenever a card is #yExhausted,deal #b",
+      " damage to ALL enemies."
+    ]
+  },
+  "REME_GreenPollutionPower": {
+    "NAME": "Green Pollution",
+    "DESCRIPTIONS": [
+      "Whenever you discard a card during your turn,apply #b",
+      " #yPoison to ALL enemies."
+    ]
+  },
+  "REME_ShadowFormPower": {
+    "NAME": "Shadow Form",
+    "DESCRIPTIONS": [
+      "When you play first #b",
+      " card(s) each turn,add a copy cost 0 with Ethereal,Exhaust to your hand.( #b",
+      " left.)",
+      " Ethereal . Exhaust . "
+    ]
+  },
+  "REME_CutPower": {
+    "NAME": "Cut",
+    "DESCRIPTIONS": [
+      "Every 3rd attack you play deal extra #b",
+      " damage.You`ve played #b",
+      " ."
+    ]
+  },
+  "REME_FloggingPower": {
+    "NAME": "Flogging",
+    "DESCRIPTIONS": [
+      "Whenever you play 1 card,deal #b",
+      " damage to random #b",
+      " enemies."
+    ]
+  },
+  "REME_RepentancePower": {
+    "NAME": "Repentance",
+    "DESCRIPTIONS": [
+      "At the end of each your turn,deal #b",
+      " damage to ALL enemies."
+    ]
+  },
+  "REME_BattleFuryPower": {
+    "NAME": "狂战斧",
+    "DESCRIPTIONS": [
+      "When you play #yStrike,add #b",
+      " copies cost 0 with Ethereal,Exhaust to your hand.",
+      " Ethereal . Exhaust . "
+    ]
+  },
+  "REME_ExtraTimePower": {
+    "NAME": "Extra Time",
+    "DESCRIPTIONS": [
+      "You have a extra turn."
+    ]
+  },
+  "REME_MusicOfDeathPower": {
+    "NAME": "Music Of Death",
+    "DESCRIPTIONS": [
+      "When you make copies into your draw pile in your turn,make #b",
+      " extra."
+    ]
+  },
+  "REME_RevengePower": {
+    "NAME": "Revenge",
+    "DESCRIPTIONS": [
+      "Deal #rDouble damage when HP is below #b50% ."
+    ]
+  },
+  "REME_SelfUpgradePower": {
+    "NAME": "Self Upgrade",
+    "DESCRIPTIONS": [
+      "Your cards rewards have #b",
+      " additional cards to choose this combat."
+    ]
+  }
+}

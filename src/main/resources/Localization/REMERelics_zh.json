@@ -1,0 +1,167 @@
+{
+  "REME_HandOfSuture": {
+    "NAME": "缝合之手",
+    "FLAVOR": "永恒的狩猎开始了~",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，获得一张来自随机牌两张的 #y缝合 卡牌，本回合耗能为 #b1 。"
+    ]
+  },
+  "REME_GreatPipe": {
+    "NAME": "了不起的烟斗",
+    "FLAVOR": "尽量满足你的愿望！",
+    "DESCRIPTIONS": [
+      "在你的回合结束时， #r尽可能 作出一项满足你需求的行动。"
+    ]
+  },
+  "REME_ClumsyBirds": {
+    "NAME": "笨鸟",
+    "FLAVOR": "笨鸟先飞",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，你手牌每有一张 固有 牌，抽一张牌。"
+    ]
+  },
+  "REME_MegaHouse": {
+    "NAME": "大屋子",
+    "FLAVOR": "“一项近乎完美的放大化工程。这是我至今第二优秀的作品，但仍然远远不够。”——建筑师",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，将一张 #b大屋子 牌加入你的手牌。 NL 大屋子可以存储卡牌。",
+      " NL 本次战斗存的牌："
+    ]
+  },
+  "REME_Singularity": {
+    "NAME": "奇点",
+    "FLAVOR": "无限小且不实际存在的“点”",
+    "DESCRIPTIONS": [
+      "拾取时，从 #b20 张牌中选择任意张，之后 #r不会再出现 在 #y商店 和 #y卡牌奖励 。（每个稀有度至少保留3张）",
+      "选择任意张，之后你不会遇到它们",
+      "你移除的卡："
+    ]
+  },
+  "REME_ComplimentaryCards": {
+    "NAME": "礼品卡",
+    "FLAVOR": "开局一张卡，其他全靠捡",
+    "DESCRIPTIONS": [
+      " #y右键单击 该遗物从 #b5 张牌中获得一张，之后该遗物失效。",
+      "选择一张确保好的开局（Good Game）"
+    ]
+  },
+  "REME_BillBoard": {
+    "NAME": "公告栏",
+    "FLAVOR": "来自新手村的任务",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，发布一个随机任务。完成可以获得 #y不错 的奖励。",
+      "获得累计","点格挡：",
+      "造成累计","点伤害：",
+      "打出累计","张牌："
+    ]
+  },
+  "REME_Truck": {
+    "NAME": "卡车",
+    "FLAVOR": "异世界转生必备工具",
+    "DESCRIPTIONS": [
+      "你可以像RPG主角一样升级。怪物也可以。"
+    ]
+  },
+  "REME_DuelDisc": {
+    "NAME": "决斗盘",
+    "FLAVOR": "我的回合！抽卡！",
+    "DESCRIPTIONS": [
+      "回合结束时 #y保留 所有手牌。每场战斗开始时抽 #b8 张牌。每回合抽牌数变为 #b3 。"
+    ]
+  },
+  "REME_PuzzleBoxRelic": {
+    "NAME": "谜之盒子",
+    "FLAVOR": "尤格萨隆的骨灰盒，又名神奇的盒子",
+    "DESCRIPTIONS": [
+      "在每回合开始时随机打出一张牌。"
+    ]
+  },
+  "REME_VIPCard": {
+    "NAME": "贵宾卡",
+    "FLAVOR": "首充100送200！只有本店最尊贵的客人，才有机会获得哦！",
+    "DESCRIPTIONS": [
+      "你能在商店获得更豪华的服务！",
+      "(无限删卡，商店右击可以治疗或抽奖)"
+    ]
+  },
+  "REME_LimitBreaker": {
+    "NAME": "真·突破极限",
+    "FLAVOR": "哼，哼，啊啊啊啊啊啊啊啊啊",
+    "DESCRIPTIONS": [
+      "#y格挡 ， #y力量 ， #y敏捷 可以突破 #b999 。"
+    ]
+  },
+  "REME_DemonsWealth": {
+    "NAME": "恶魔的财富",
+    "FLAVOR": "“有了钱，你就可以为所欲为啦……”\n“商店可以删牌”——此条由商人付费显示",
+    "DESCRIPTIONS": [
+      "卡牌奖励中增加一张 #r诅咒 牌。每当你获得一张 #r诅咒 牌，获得 #b200  #y金币 。"
+    ]
+  },
+  "REME_CardOfGreed": {
+    "NAME": "贪婪之牌",
+    "FLAVOR": "贪婪",
+    "DESCRIPTIONS": [
+      "你每打出一张牌，抽一张牌。每回合最多触发x次。（x为你卡组数量/ #b10 ）"
+    ]
+  },
+  "REME_CardOfGluttony": {
+    "NAME": "暴食之牌",
+    "FLAVOR": "暴食",
+    "DESCRIPTIONS": [
+      "你抽牌时 #y额外 抽一张。"
+    ]
+  },
+  "REME_HourglassOfDeath": {
+    "NAME": "死亡沙漏",
+    "FLAVOR": "-1s -1s -1s……",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，造成等同于敌人回合 #y经过秒数 的伤害。"
+    ]
+  },
+  "REME_OnlineShoppingPlatform": {
+    "NAME": "网购平台",
+    "FLAVOR": "不买立省100%",
+    "DESCRIPTIONS": [
+      "你的药水栏将 #y随机充满 。你使用药水需要 #r支付  #b20 金币。 NL （不会出现 #g瓶中精灵 ）"
+    ]
+  },
+  "REME_BlueBull": {
+    "NAME": "蓝牛",
+    "FLAVOR": "“哞～”",
+    "DESCRIPTIONS": [
+      "你在每场战斗中的第一张技能牌获得的 #y格挡 提高 #b8 点。"
+    ]
+  },
+  "REME_ArchaeologicalTools": {
+    "NAME": "考古工具",
+    "FLAVOR": "作为考古专家还要具备一定的身体素质。",
+    "DESCRIPTIONS": [
+      "拾取本遗物后 #y未使用过 的牌耗能变为 #b0 ，打出时获得 #b3 金币。"
+    ]
+  },
+  "REME_LowDesire": {
+    "NAME": "低欲望",
+    "FLAVOR": "只想过平静的生活。",
+    "DESCRIPTIONS": [
+      "拾取时，获得 #b2 个 #y普通 遗物。战斗奖励中增加 #b1 张 #y无色 牌。",
+      "只想平静……",
+      "跳过奖励",
+      "关闭"
+    ]
+  },
+  "REME_IWantAll": {
+    "NAME": "我全都要！",
+    "FLAVOR": "多来几张，摩多摩多",
+    "DESCRIPTIONS": [
+      "你可以选择获得 #y所有 的战斗奖励卡牌，每有一张获得 #b1 生命最大值。"
+    ]
+  },
+  "REME_ConveyorBelt": {
+    "NAME": "传送带",
+    "FLAVOR": "你可以通过这里",
+    "DESCRIPTIONS": [
+      "每回合额外抽 #b1 张牌。你每打出一张牌，抽牌堆顶端的牌进入你手牌最左侧，最右侧的手牌进入弃牌堆。"
+    ]
+  }
+}

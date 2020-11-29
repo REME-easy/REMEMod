@@ -1,0 +1,82 @@
+{
+  "REME_FearOfPainPower": {
+    "NAME": "害怕疼痛",
+    "DESCRIPTIONS": [
+      "每当有一张牌被 #y消耗 ，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "REME_GreenPollutionPower": {
+    "NAME": "绿色污染",
+    "DESCRIPTIONS": [
+      "你在你的回合每丢弃一张牌，使所有敌人获得 #b",
+      " 点 #y中毒 。"
+    ]
+  },
+  "REME_ShadowFormPower": {
+    "NAME": "暗影形态",
+    "DESCRIPTIONS": [
+      "你在你的回合打出前 #b",
+      " 张牌会获得那张牌0耗能 #y虚无 且 #y消耗 的复制。 NL （还可以获得 #b",
+      " 张牌。）",
+      " 虚无 。 消耗 。"
+    ]
+  },
+  "REME_CutPower": {
+    "NAME": "居合斩",
+    "DESCRIPTIONS": [
+      "你每使用三张攻击牌，第三张攻击牌伤害+ #b",
+      " 。你已经打出 #b",
+      " 张牌。"
+    ]
+  },
+  "REME_FloggingPower": {
+    "NAME": "鞭笞",
+    "DESCRIPTIONS": [
+      "你每打出一张牌，对 #b",
+      " 个随机敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "REME_RepentancePower": {
+    "NAME": "忏悔",
+    "DESCRIPTIONS": [
+      "你的回合结束时，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "REME_BattleFuryPower": {
+    "NAME": "狂战斧",
+    "DESCRIPTIONS": [
+      "每当你打出 #y打击 时，获得其 #b",
+      " 张 #y虚无 ， #y消耗 且耗能为0的复制。",
+      " 虚无 。 消耗 。"
+    ]
+  },
+  "REME_ExtraTimePower": {
+    "NAME": "额外回合",
+    "DESCRIPTIONS": [
+      "在本回合结束后，再进行一个额外的回合。"
+    ]
+  },
+  "REME_MusicOfDeathPower": {
+    "NAME": "死亡乐章",
+    "DESCRIPTIONS": [
+      "你的回合，每当抽牌堆因为效果洗入卡牌时，额外洗入 #b",
+      " 张。"
+    ]
+  },
+  "REME_RevengePower": {
+    "NAME": "复仇！",
+    "DESCRIPTIONS": [
+      "生命值低于一半时，造成的伤害 #r翻倍 。"
+    ]
+  },
+  "REME_SelfUpgradePower": {
+    "NAME": "自我升级",
+    "DESCRIPTIONS": [
+      "本次战斗奖励的卡牌增加 #b",
+      " 张。"
+    ]
+  }
+}

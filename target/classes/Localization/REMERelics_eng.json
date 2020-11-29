@@ -1,0 +1,160 @@
+{
+  "REME_HandOfSuture": {
+    "NAME": "Hand Of Suture",
+    "FLAVOR": "The eternal hunt has begun~",
+    "DESCRIPTIONS": [
+      "At the start of combat,add a Suture card of two copies from a random card into your hand.It cost #b1 this turn."
+    ]
+  },
+  "REME_GreatPipe": {
+    "NAME": "了不起的烟斗",
+    "FLAVOR": "尽量满足你的愿望！",
+    "DESCRIPTIONS": [
+      "在你的回合结束时， #r尽可能 作出一项满足你需求的行动。"
+    ]
+  },
+  "REME_ClumsyBirds": {
+    "NAME": "笨鸟",
+    "FLAVOR": "笨鸟先飞",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，你手牌每有一张 固有 牌，抽一张牌。"
+    ]
+  },
+  "REME_MegaHouse": {
+    "NAME": "大屋子",
+    "FLAVOR": "“一项近乎完美的放大化工程。这是我至今第二优秀的作品，但仍然远远不够。”——建筑师",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，将一张 #b大屋子 牌加入你的手牌。 NL 大屋子可以存储卡牌。",
+      " NL 本次战斗存的牌："
+    ]
+  },
+  "REME_Singularity": {
+    "NAME": "奇点",
+    "FLAVOR": "无限小且不实际存在的“点”",
+    "DESCRIPTIONS": [
+      "拾取时，从 #b20 张牌中选择任意张，之后 #r不会再出现 在 #y商店 和 #y卡牌奖励 。（每个稀有度至少保留3张）",
+      "选择任意张，之后你不会遇到它们",
+      "你移除的卡："
+    ]
+  },
+  "REME_ComplimentaryCards": {
+    "NAME": "Complimentary Cards",
+    "FLAVOR": "Start with a card, the rest picking up.",
+    "DESCRIPTIONS": [
+      " #yRight #yClick this relic to choose #b1 card from #b5 cards,then become invalid.",
+      "Ensure Good Game"
+    ]
+  },
+  "REME_BillBoard": {
+    "NAME": "公告栏",
+    "FLAVOR": "来自新手村的任务",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，发布一个随机任务。完成可以获得 #y不错 的奖励。",
+      "获得累计","点格挡：",
+      "造成累计","点伤害：",
+      "打出累计","张牌："
+    ]
+  },
+  "REME_Truck": {
+    "NAME": "卡车",
+    "FLAVOR": "异世界转生必备工具",
+    "DESCRIPTIONS": [
+      "你可以像RPG主角一样升级。怪物也可以。"
+    ]
+  },
+  "REME_DuelDisc": {
+    "NAME": "Duel Disc",
+    "FLAVOR": "My turn!Draw!",
+    "DESCRIPTIONS": [
+      " #yRetain your hand at the end of turn.Draw #b8 cards when combat start,but draw #b3 cards each turn."
+    ]
+  },
+  "REME_PuzzleBoxRelic": {
+    "NAME": "Puzzle Box",
+    "FLAVOR": "I spell your doom...",
+    "DESCRIPTIONS": [
+      "Play a random card at the start of your turn."
+    ]
+  },
+  "REME_VIPCard": {
+    "NAME": "贵宾卡",
+    "FLAVOR": "首充100送200！只有本店最尊贵的客人，才有机会获得哦！",
+    "DESCRIPTIONS": [
+      "你能在商店获得更豪华的服务！",
+      "(无限删卡，商店右击可以治疗或抽奖)"
+    ]
+  },
+  "REME_LimitBreaker": {
+    "NAME": "LimitBreaker",
+    "FLAVOR": "ahhhhhhhhhhhhhhhhhhhhhhh",
+    "DESCRIPTIONS": [
+      " #yBlock , #yStrength and #yDexterity can break through #b999 ."
+    ]
+  },
+  "REME_DemonsWealth": {
+    "NAME": "Demon`s Wealth",
+    "FLAVOR": "take this...",
+    "DESCRIPTIONS": [
+      "Add #b1 #rCurse into your combat rewards.Whenever you gain #rCurse,gain #b200 #yGold."
+    ]
+  },
+  "REME_CardOfGreed": {
+    "NAME": "Card Of Greed",
+    "FLAVOR": "Greed",
+    "DESCRIPTIONS": [
+      "Draw #b1 card when you play one card for every #b10 cards in your deck."
+    ]
+  },
+  "REME_CardOfGluttony": {
+    "NAME": "Card Of Gluttony",
+    "FLAVOR": "Gluttony",
+    "DESCRIPTIONS": [
+      "When draw,draw #b1 extra."
+    ]
+  },
+  "REME_HourglassOfDeath": {
+    "NAME": "Hourglass Of Death",
+    "FLAVOR": "-1s -1s -1s...",
+    "DESCRIPTIONS": [
+      "Deal #b1 damage to ALL enemies for each second them waste in their turn."
+    ]
+  },
+  "REME_OnlineShoppingPlatform": {
+    "NAME": "Online Shopping APP",
+    "FLAVOR": "Save 100% without buying",
+    "DESCRIPTIONS": [
+      "Your potion slots will always be #yFULL,but pay #b20 #yGold when you use potions."
+    ]
+  },
+  "REME_BlueBull": {
+    "NAME": "蓝牛",
+    "FLAVOR": "“哞～”",
+    "DESCRIPTIONS": [
+      "你在每场战斗中的第一张技能牌获得的 #y格挡 提高 #b8 点。"
+    ]
+  },
+  "REME_ArchaeologicalTools": {
+    "NAME": "Archaeological Tools",
+    "FLAVOR": "As an archaeologist, he must have certain physical quality.",
+    "DESCRIPTIONS": [
+      "Cards unused after you equip this relic cost 0 and gain #b3 #yGold when played."
+    ]
+  },
+  "REME_LowDesire": {
+    "NAME": "Low Desire",
+    "FLAVOR": "Just want to live a peaceful life.",
+    "DESCRIPTIONS": [
+      "Upon pickup, obtain #b2 common relics.Add #b1 #yColorless into your combat rewards.",
+      "Just in peace...",
+      "Skip Rewards",
+      "Close"
+    ]
+  },
+  "REME_IWantAll": {
+    "NAME": "I Want All",
+    "FLAVOR": "plz more",
+    "DESCRIPTIONS": [
+      "You can choose to obtain #yALL cards in cards rewards,and gain #b1 Max HP for each."
+    ]
+  }
+}

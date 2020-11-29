@@ -1,0 +1,14 @@
+[
+  {
+    "NAMES": ["Suture","suture"],
+    "DESCRIPTION": "Build several cards together with cost,effect and keywords added.Can`t Suture cards cost X."
+  },
+  {
+    "NAMES": ["特殊虚弱"],
+    "DESCRIPTION": "每有一层，降低5%造成的攻击伤害。"
+  },
+  {
+    "NAMES": ["特殊易伤"],
+    "DESCRIPTION": "每有一层，提高5%受到的攻击伤害。"
+  }
+]

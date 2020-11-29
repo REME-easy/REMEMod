@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="target/REMEMod.jar" tofile="D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/mods/REMEMod.jar"/>
+</target>
+</project>

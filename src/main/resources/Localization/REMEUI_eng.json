@@ -1,0 +1,20 @@
+{
+  "REME_CARD_SELECT": {
+    "TEXT": [
+      "Choose",
+      "exhaust",
+      "suture",
+      " Retain. NL ",
+      "I Want All!"
+    ]
+  },
+  "REME_VIPCARD": {
+    "TEXT": [
+      "抽奖",
+      "治疗",
+      "来试试你的运气吧！",
+      "为你治疗~",
+      "No enough gold!"
+    ]
+  }
+}
