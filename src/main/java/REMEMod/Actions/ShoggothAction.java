@@ -62,7 +62,8 @@ public class ShoggothAction extends AbstractGameAction {
                 for (AbstractCard c1 : cards) {
                     cards1.add(c1.makeStatEquivalentCopy());
                 }
-                this.addToBot(new MakeTempCardInHandAction(REMECardHelper.makeSutureCard(cards1)));
+                if(cards1.size() > 0)
+                    this.addToBot(new MakeTempCardInHandAction(REMECardHelper.makeSutureCard(cards1)));
                 AbstractDungeon.closeCurrentScreen();
                 AbstractDungeon.gridSelectScreen.selectedCards.clear();
                 this.isDone = true;
