@@ -22,8 +22,8 @@ public class FloggingPower extends AbstractREMEPower {
         this.amount2 = Amount2;
         this.ID = POWER_ID + "[" + amount2 + "]";
         this.type = AbstractPower.PowerType.BUFF;
-        String path128 = "img/powers/Brilliance84.png";
-        String path48 = "img/powers/Brilliance32.png";
+        String path128 = "remeImg/powers/Brilliance84.png";
+        String path48 = "remeImg/powers/Brilliance32.png";
         this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.updateDescription();

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class DemonsWealth extends CustomRelic {
 
     public DemonsWealth() {
-        super("REME_DemonsWealth", ImageMaster.loadImage("img/relics/DemonsWealth.png"),
+        super("REME_DemonsWealth", ImageMaster.loadImage("remeImg/relics/DemonsWealth.png"),
                 RelicTier.BOSS, LandingSound.MAGICAL);
     }
 

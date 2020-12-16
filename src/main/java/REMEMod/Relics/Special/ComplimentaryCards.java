@@ -21,7 +21,7 @@ public class ComplimentaryCards extends CustomRelic {
     private CardGroup tmp = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
 
     public ComplimentaryCards() {
-        super("REME_ComplimentaryCards", ImageMaster.loadImage("img/relics/ComplimentaryCards.png"),
+        super("REME_ComplimentaryCards", ImageMaster.loadImage("remeImg/relics/ComplimentaryCards.png"),
                 RelicTier.SPECIAL, LandingSound.FLAT);
         this.counter = 1;
     }

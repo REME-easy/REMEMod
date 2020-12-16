@@ -14,7 +14,7 @@ public class BuildACard extends CustomCard {
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     public BuildACard() {
-        super("REME_BuildACard", NAME, "img/cards/BuildACard.png", 1,
+        super("REME_BuildACard", NAME, "remeImg/cards/BuildACard.png", 1,
                 DESCRIPTION, CardType.SKILL, CardColor.COLORLESS, CardRarity.RARE, CardTarget.NONE);
         this.magicNumber = this.baseMagicNumber = 2;
     }

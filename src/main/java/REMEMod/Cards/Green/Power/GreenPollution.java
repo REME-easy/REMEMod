@@ -16,7 +16,7 @@ public class GreenPollution extends CustomCard {
     private static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
 
     public GreenPollution() {
-        super("REME_GreenPollution", NAME, "img/cards/GreenPollution.png", 1, DESCRIPTION,
+        super("REME_GreenPollution", NAME, "remeImg/cards/GreenPollution.png", 1, DESCRIPTION,
                 CardType.POWER, CardColor.GREEN, CardRarity.UNCOMMON, CardTarget.NONE);
         this.magicNumber = this.baseMagicNumber = 2;
     }

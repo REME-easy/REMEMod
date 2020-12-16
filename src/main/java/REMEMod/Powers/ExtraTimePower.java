@@ -25,8 +25,8 @@ public class ExtraTimePower extends AbstractPower {
         this.ID = POWER_ID;
         this.owner = owner;
         this.type = PowerType.BUFF;
-        String path128 = "img/powers/ExtraTime84.png";
-        String path48 = "img/powers/ExtraTime32.png";
+        String path128 = "remeImg/powers/ExtraTime84.png";
+        String path48 = "remeImg/powers/ExtraTime32.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.updateDescription();

@@ -15,7 +15,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 public class PuzzleBoxRelic extends CustomRelic {
 
     public PuzzleBoxRelic() {
-        super("REME_PuzzleBoxRelic", ImageMaster.loadImage("img/relics/PuzzleBoxRelic.png"),
+        super("REME_PuzzleBoxRelic", ImageMaster.loadImage("remeImg/relics/PuzzleBoxRelic.png"),
                 RelicTier.COMMON, LandingSound.FLAT);
     }
 

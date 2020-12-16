@@ -10,7 +10,6 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
-import com.megacrit.cardcrawl.powers.AbstractPower.PowerType;
 
 public class ShadowFormPower extends AbstractREMEPower {
     private static final String POWER_ID = "REME_ShadowFormPower";
@@ -25,8 +24,8 @@ public class ShadowFormPower extends AbstractREMEPower {
         this.amount = Amount;
         this.amount2 = 0;
         this.type = PowerType.BUFF;
-        String path128 = "img/powers/pmmod.png";
-        String path48 = "img/powers/pmmod.png";
+        String path128 = "remeImg/powers/pmmod.png";
+        String path48 = "remeImg/powers/pmmod.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.updateDescription();
@@ -38,7 +37,7 @@ public class ShadowFormPower extends AbstractREMEPower {
     }
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
-        if ((card.glowColor != Color.GREEN || !card.isEthereal || !card.exhaust) && !AbstractDungeon.actionManager.turnHasEnded && this.amount2 >= 0 && this.amount2 < this.amount) {
+        if (!(card.isEthereal && card.exhaust) && !AbstractDungeon.actionManager.turnHasEnded && this.amount2 >= 0 && this.amount2 < this.amount) {
             this.flash();
             ++this.amount2;
             this.updateDescription();

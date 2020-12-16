@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class HandOfSuture extends CustomRelic {
 
     public HandOfSuture() {
-        super("REME_HandOfSuture", ImageMaster.loadImage("img/relics/HandOfSuture.png"),
+        super("REME_HandOfSuture", ImageMaster.loadImage("remeImg/relics/HandOfSuture.png"),
                 RelicTier.COMMON, LandingSound.FLAT);
     }
 

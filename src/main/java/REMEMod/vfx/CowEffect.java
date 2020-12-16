@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 
 public class CowEffect extends AbstractGameEffect {
-    private static final Texture cowImg = ImageMaster.loadImage("img/vfx/cow.png");
+    private static final Texture cowImg = ImageMaster.loadImage("remeImg/vfx/cow.png");
     private float x;
     private float y;
     private float vY;

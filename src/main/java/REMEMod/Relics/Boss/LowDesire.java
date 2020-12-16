@@ -18,7 +18,7 @@ public class LowDesire extends CustomRelic {
     private boolean cardsReceived = true;
 
     public LowDesire() {
-        super("REME_LowDesire", ImageMaster.loadImage("img/relics/LowDesire.png"),
+        super("REME_LowDesire", ImageMaster.loadImage("remeImg/relics/LowDesire.png"),
                 RelicTier.BOSS, LandingSound.FLAT);
     }
 

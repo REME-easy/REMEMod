@@ -18,7 +18,7 @@ public class EmptyShield extends CustomCard {
     private static final String[] EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
 
     public EmptyShield() {
-        super("REME_EmptyShield", NAME, "img/cards/EmptyShield.png", 1, DESCRIPTION,
+        super("REME_EmptyShield", NAME, "remeImg/cards/EmptyShield.png", 1, DESCRIPTION,
                 CardType.SKILL, CardColor.PURPLE, CardRarity.RARE, CardTarget.NONE);
         this.baseMagicNumber = this.magicNumber = 1;
     }

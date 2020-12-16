@@ -18,7 +18,7 @@ public class SpectralBlade extends CustomCard {
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     public SpectralBlade() {
-        super(ID, NAME, "img/cards/SpectralBlade.png", 1,
+        super(ID, NAME, "remeImg/cards/SpectralBlade.png", 1,
                 DESCRIPTION, CardType.ATTACK, CardColor.GREEN, CardRarity.RARE, CardTarget.ENEMY);
         this.damage = this.baseDamage = 6;
         this.baseMagicNumber = this.magicNumber = 2;

@@ -19,7 +19,7 @@ public class IWantAll extends CustomRelic {
     private static WantAllButton wantAllButton;
 
     public IWantAll() {
-        super(ID, ImageMaster.loadImage("img/relics/IWantAll.png"),
+        super(ID, ImageMaster.loadImage("remeImg/relics/IWantAll.png"),
                 RelicTier.RARE, LandingSound.SOLID);
     }
 

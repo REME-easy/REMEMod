@@ -30,8 +30,8 @@ public class RepentancePower extends AbstractPower {
         this.owner = owner;
         this.amount = Amount;
         this.type = PowerType.BUFF;
-        String path128 = "img/powers/Repentance84.png";
-        String path48 = "img/powers/Repentance32.png";
+        String path128 = "remeImg/powers/Repentance84.png";
+        String path48 = "remeImg/powers/Repentance32.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.updateDescription();

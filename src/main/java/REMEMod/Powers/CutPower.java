@@ -40,8 +40,8 @@ public class CutPower extends AbstractPower {
         this.amount = Amount;
         this.amount3 = 0;
         this.type = PowerType.BUFF;
-        String path128 = "img/powers/Cut84.png";
-        String path48 = "img/powers/Cut32.png";
+        String path128 = "remeImg/powers/Cut84.png";
+        String path48 = "remeImg/powers/Cut32.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.redColor2 = Color.RED.cpy();

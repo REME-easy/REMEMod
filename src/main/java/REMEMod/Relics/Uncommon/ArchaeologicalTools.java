@@ -18,7 +18,7 @@ public class ArchaeologicalTools extends CustomRelic implements CustomSavable<Ar
     public ArrayList<String> strings = new ArrayList<>();
 
     public ArchaeologicalTools() {
-        super("REME_ArchaeologicalTools", ImageMaster.loadImage("img/relics/ArchaeologicalTools.png"),
+        super("REME_ArchaeologicalTools", ImageMaster.loadImage("remeImg/relics/ArchaeologicalTools.png"),
                 RelicTier.UNCOMMON, LandingSound.FLAT);
     }
 

@@ -16,7 +16,7 @@ public class Whirling extends CustomCard {
     private static final String NAME = cardStrings.NAME;
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
     private static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
-    private static final String IMG_PATH = "img/cards/Whirling.png";
+    private static final String IMG_PATH = "remeImg/cards/Whirling.png";
     private static final int COST = 0;
 
     public Whirling() {

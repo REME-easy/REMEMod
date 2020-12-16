@@ -248,5 +248,9 @@
   "REME_SelfUpgrade": {
     "NAME": "自我升级",
     "DESCRIPTION": "战斗奖励中增加 !M! 张牌。"
+  },
+  "REME_shoujiao": {
+    "NAME": "收缴",
+    "DESCRIPTION": "将抽牌堆顶端 !M! 张牌（不足会从弃牌堆中选取） *收入囊中 。"
   }
 }

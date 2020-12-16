@@ -14,7 +14,7 @@ public class SingleHolding extends CustomCard {
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     public SingleHolding() {
-        super("REME_SingleHolding", NAME, "img/cards/SingleHolding.png", 1, DESCRIPTION,
+        super("REME_SingleHolding", NAME, "remeImg/cards/SingleHolding.png", 1, DESCRIPTION,
                 CardType.SKILL, CardColor.RED, CardRarity.UNCOMMON, CardTarget.ENEMY);
     }
 

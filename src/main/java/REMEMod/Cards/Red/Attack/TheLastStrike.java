@@ -20,7 +20,7 @@ public class TheLastStrike extends CustomCard {
 
 
     public TheLastStrike() {
-        super("REME_TheLastStrike", NAME, "img/cards/TheLastStrike.png", 1, DESCRIPTION,
+        super("REME_TheLastStrike", NAME, "remeImg/cards/TheLastStrike.png", 1, DESCRIPTION,
                 CardType.ATTACK, CardColor.RED, CardRarity.RARE, CardTarget.ENEMY);
         this.damage = this.baseDamage = 12;
         this.tags.add(CardTags.STRIKE);

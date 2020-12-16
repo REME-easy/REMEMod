@@ -25,7 +25,7 @@ public class DataAnalysis extends CustomCard {
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     public DataAnalysis() {
-        super("REME_DataAnalysis", NAME, "img/cards/DataAnalysis.png", 0, DESCRIPTION,
+        super("REME_DataAnalysis", NAME, "remeImg/cards/DataAnalysis.png", 0, DESCRIPTION,
                 CardType.ATTACK, CardColor.BLUE, CardRarity.UNCOMMON, CardTarget.ENEMY);
         this.magicNumber = this.baseMagicNumber = 2;
     }

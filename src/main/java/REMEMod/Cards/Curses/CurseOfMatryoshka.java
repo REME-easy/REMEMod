@@ -18,7 +18,7 @@ public class CurseOfMatryoshka extends CustomCard {
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = cardStrings.NAME;
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final String IMG_PATH = "img/cards/CurseOfMatryoshka.png";
+    private static final String IMG_PATH = "remeImg/cards/CurseOfMatryoshka.png";
     private static final int COST = -2;
 
     public CurseOfMatryoshka() {

@@ -19,7 +19,7 @@ public class ForAll extends CustomCard {
     private static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
 
     public ForAll() {
-        super("REME_ForAll", NAME, "img/cards/ForAll.png", 2, DESCRIPTION,
+        super("REME_ForAll", NAME, "remeImg/cards/ForAll.png", 2, DESCRIPTION,
                 CardType.ATTACK, CardColor.BLUE, CardRarity.RARE, CardTarget.ENEMY);
         this.damage = this.baseDamage = 10;
     }

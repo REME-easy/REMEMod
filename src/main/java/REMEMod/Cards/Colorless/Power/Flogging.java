@@ -18,7 +18,7 @@ public class Flogging extends CustomCard {
 
     private static final String NAME = cardStrings.NAME;
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final String IMG_PATH = "img/cards/Flogging.png";
+    private static final String IMG_PATH = "remeImg/cards/Flogging.png";
     private static final int COST = 0;
     public Flogging() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,

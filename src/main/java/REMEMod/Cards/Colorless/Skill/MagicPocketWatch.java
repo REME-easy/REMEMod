@@ -20,7 +20,7 @@ public class MagicPocketWatch extends CustomCard {
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = cardStrings.NAME;
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final String IMG_PATH = "img/cards/MagicPocketWatch.png";
+    private static final String IMG_PATH = "remeImg/cards/MagicPocketWatch.png";
     private static final int COST = 2;
     private static final int MAGIC_NUM = 2;
     private static final int SECOND_MAGIC_NUM = 30;

@@ -26,7 +26,7 @@ public class WorshipGod extends CustomCard {
     private static final String[] EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
 
     public WorshipGod() {
-        super("REME_WorshipGod", NAME, "img/cards/WorshipGod.png", 1, DESCRIPTION,
+        super("REME_WorshipGod", NAME, "remeImg/cards/WorshipGod.png", 1, DESCRIPTION,
                 CardType.SKILL, CardColor.PURPLE, CardRarity.RARE, CardTarget.NONE);
         this.exhaust = true;
     }

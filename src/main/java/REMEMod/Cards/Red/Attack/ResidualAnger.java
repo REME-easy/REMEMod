@@ -18,7 +18,7 @@ public class ResidualAnger extends CustomCard {
 
 
     public ResidualAnger() {
-        super("REME_ResidualAnger", NAME, "img/cards/ResidualAnger.png", 0, DESCRIPTION,
+        super("REME_ResidualAnger", NAME, "remeImg/cards/ResidualAnger.png", 0, DESCRIPTION,
                 CardType.ATTACK, CardColor.RED, CardRarity.SPECIAL, CardTarget.ENEMY);
         this.damage = this.baseDamage = 1;
         this.baseMagicNumber = this.magicNumber = 1;

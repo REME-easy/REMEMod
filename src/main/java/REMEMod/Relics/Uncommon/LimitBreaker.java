@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 public class LimitBreaker extends CustomRelic {
 
     public LimitBreaker() {
-        super("REME_LimitBreaker", ImageMaster.loadImage("img/relics/LimitBreaker.png"),
+        super("REME_LimitBreaker", ImageMaster.loadImage("remeImg/relics/LimitBreaker.png"),
                 RelicTier.UNCOMMON, LandingSound.FLAT);
     }
 

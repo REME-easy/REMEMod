@@ -185,7 +185,9 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
     }
 
     public void receivePostDungeonInitialize(){
-        obtain(AbstractDungeon.player,new ComplimentaryCards(),false);
+        if(AbstractDungeon.getCurrRoom() != null){
+            obtain(AbstractDungeon.player,new ComplimentaryCards(),false);
+        }
     }
 
     public void receiveOnBattleStart(AbstractRoom var1){

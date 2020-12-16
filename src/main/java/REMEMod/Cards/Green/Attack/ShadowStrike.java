@@ -19,7 +19,7 @@ public class ShadowStrike extends CustomCard {
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     public ShadowStrike() {
-        super("REME_ShadowStrike", NAME, "img/cards/ShadowStrike.png", 1,
+        super("REME_ShadowStrike", NAME, "remeImg/cards/ShadowStrike.png", 1,
                 DESCRIPTION, CardType.ATTACK, CardColor.GREEN, CardRarity.UNCOMMON, CardTarget.NONE);
         this.damage = this.baseDamage = 10;
         this.tags.add(CardTags.STRIKE);

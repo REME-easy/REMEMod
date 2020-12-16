@@ -18,7 +18,7 @@ public class Upload extends CustomCard {
     private static final String NAME = cardStrings.NAME;
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
     private static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
-    private static final String IMG_PATH = "img/cards/FirmDetermination.png";
+    private static final String IMG_PATH = "remeImg/cards/FirmDetermination.png";
     private static final int COST = 1;
     public Upload() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,

@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 public class DuelDisc extends CustomRelic {
 
     public DuelDisc() {
-        super("REME_DuelDisc", ImageMaster.loadImage("img/relics/DuelDisc.png"),
+        super("REME_DuelDisc", ImageMaster.loadImage("remeImg/relics/DuelDisc.png"),
                 RelicTier.BOSS, LandingSound.FLAT);
     }
 

@@ -25,8 +25,8 @@ public class FearOfPainPower extends AbstractPower {
         this.owner = owner;
         this.amount = Amount;
         this.type = PowerType.BUFF;
-        String path128 = "img/powers/pmmod.png";
-        String path48 = "img/powers/pmmod.png";
+        String path128 = "remeImg/powers/pmmod.png";
+        String path48 = "remeImg/powers/pmmod.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.updateDescription();

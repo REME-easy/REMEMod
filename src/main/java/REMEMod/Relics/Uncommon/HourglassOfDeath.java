@@ -18,7 +18,7 @@ public class HourglassOfDeath extends CustomRelic {
     private float time = 0.0F;
 
     public HourglassOfDeath() {
-        super("REME_HourglassOfDeath", ImageMaster.loadImage("img/relics/HourglassOfDeath.png"),
+        super("REME_HourglassOfDeath", ImageMaster.loadImage("remeImg/relics/HourglassOfDeath.png"),
                 RelicTier.UNCOMMON, LandingSound.MAGICAL);
     }
 

@@ -18,7 +18,7 @@ public class ACTH extends CustomCard {
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = cardStrings.NAME;
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final String IMG_PATH = "img/cards/ACTH.png";
+    private static final String IMG_PATH = "remeImg/cards/ACTH.png";
     private static final int COST = 1;
 
     public ACTH() {

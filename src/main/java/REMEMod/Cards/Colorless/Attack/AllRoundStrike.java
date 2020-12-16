@@ -26,9 +26,9 @@ public class AllRoundStrike extends CustomCard {
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     public AllRoundStrike() {
-        super("REME_AllRoundStrike", NAME, "img/cards/AllRoundStrike.png", 1,
+        super("REME_AllRoundStrike", NAME, "remeImg/cards/AllRoundStrike.png", 1,
                 DESCRIPTION, CardType.ATTACK, CardColor.COLORLESS, CardRarity.RARE, CardTarget.NONE);
-        this.damage = this.baseDamage = 6;
+        this.damage = this.baseDamage = 4;
         this.tags.add(CardTags.STRIKE);
         this.isEthereal = true;
         this.isInnate = true;

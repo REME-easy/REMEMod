@@ -18,7 +18,7 @@ public class CardOfGreed extends CustomRelic {
     private static float OffsetX2 = 0.0F;
 
     public CardOfGreed() {
-        super("REME_CardOfGreed", ImageMaster.loadImage("img/relics/CardOfGreed.png"),
+        super("REME_CardOfGreed", ImageMaster.loadImage("remeImg/relics/CardOfGreed.png"),
                 RelicTier.SHOP, LandingSound.MAGICAL);
         this.counter = 0;
     }

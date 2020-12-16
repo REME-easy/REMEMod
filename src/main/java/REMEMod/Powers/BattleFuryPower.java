@@ -24,8 +24,8 @@ public class BattleFuryPower extends AbstractPower {
         this.owner = owner;
         this.amount = Amount;
         this.type = PowerType.BUFF;
-        String path128 = "img/powers/BattleFury84.png";
-        String path48 = "img/powers/BattleFury32.png";
+        String path128 = "remeImg/powers/BattleFury84.png";
+        String path48 = "remeImg/powers/BattleFury32.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.updateDescription();
@@ -33,7 +33,7 @@ public class BattleFuryPower extends AbstractPower {
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
         for(int i = amount ; i > 0 ; i--)
-            if ((card.glowColor != Color.GREEN || !card.isEthereal || !card.exhaust) && !AbstractDungeon.actionManager.turnHasEnded && card.tags.contains(AbstractCard.CardTags.STARTER_STRIKE)) {
+            if (!(card.isEthereal && card.exhaust) && !AbstractDungeon.actionManager.turnHasEnded && card.tags.contains(AbstractCard.CardTags.STARTER_STRIKE)) {
                 this.flash();
                 this.updateDescription();
                 AbstractCard c = card.makeStatEquivalentCopy();

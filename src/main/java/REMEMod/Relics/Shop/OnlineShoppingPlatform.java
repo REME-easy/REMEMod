@@ -22,7 +22,7 @@ public class OnlineShoppingPlatform extends CustomRelic {
     private static final UIStrings uistrings = CardCrawlGame.languagePack.getUIString("REME_P");
 
     public OnlineShoppingPlatform() {
-        super("REME_OnlineShoppingPlatform", ImageMaster.loadImage("img/relics/OnlineShoppingPlatform.png"),
+        super("REME_OnlineShoppingPlatform", ImageMaster.loadImage("remeImg/relics/OnlineShoppingPlatform.png"),
                 RelicTier.SHOP, LandingSound.FLAT);
     }
 

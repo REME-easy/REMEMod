@@ -21,7 +21,7 @@ public class VIPCard extends CustomRelic {
     private boolean Rclick = false;
 
     public VIPCard() {
-        super("REME_VIPCard", ImageMaster.loadImage("img/relics/HandOfSuture.png"),
+        super("REME_VIPCard", ImageMaster.loadImage("remeImg/relics/HandOfSuture.png"),
                 RelicTier.SHOP, LandingSound.FLAT);
     }
 

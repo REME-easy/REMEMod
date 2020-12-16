@@ -15,7 +15,7 @@ public class ShadowForm extends CustomCard {
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     public ShadowForm() {
-        super("REME_ShadowForm", NAME, "img/cards/ShadowForm.png", 4, DESCRIPTION,
+        super("REME_ShadowForm", NAME, "remeImg/cards/ShadowForm.png", 4, DESCRIPTION,
                 CardType.POWER, CardColor.GREEN, CardRarity.RARE, CardTarget.NONE);
         this.magicNumber = this.baseMagicNumber = 1;
     }

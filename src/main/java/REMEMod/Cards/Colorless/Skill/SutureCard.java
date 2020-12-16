@@ -23,7 +23,7 @@ public class SutureCard extends CustomCard {
     private AbstractCard topCard;
 
     public SutureCard(ArrayList<AbstractCard> sutureCards) {
-        super("REME_SutureCard", NAME, "img/cards/BuildACard.png", 0, " ",
+        super("REME_SutureCard", NAME, "remeImg/cards/BuildACard.png", 0, " ",
                 CardType.SKILL, CardColor.COLORLESS, CardRarity.SPECIAL, CardTarget.NONE);
         this.sutureCards = sutureCards;
         if(sutureCards.size() > 0){
