@@ -163,5 +163,19 @@
     "DESCRIPTIONS": [
       "每回合额外抽 #b1 张牌。你每打出一张牌，抽牌堆顶端的牌进入你手牌最左侧，最右侧的手牌进入弃牌堆。"
     ]
+  },
+  "REME_ChargedStone": {
+    "NAME": "充能石",
+    "FLAVOR": "拿了这件遗物你就变得渴望被打。",
+    "DESCRIPTIONS": [
+      "当你失去生命时，下回合获得 [E] 。"
+    ]
+  },
+  "REME_PoisonedDagger": {
+    "NAME": "浸毒匕首",
+    "FLAVOR": "我这把可是沾满剧毒的匕首（舔）",
+    "DESCRIPTIONS": [
+      "你每使用一瓶药水，手牌中加入一张 #y小刀 。"
+    ]
   }
 }

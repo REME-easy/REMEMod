@@ -1,8 +1,8 @@
 package REMEMod.Cards.Green.Attack;
 
+import REMEMod.Patches.IncrementDiscardPatch;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.GameActionManager;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -31,7 +31,7 @@ public class SpectralBlade extends CustomCard {
     }
 
     private static int countCards(){
-        return GameActionManager.totalDiscardedThisTurn;
+        return IncrementDiscardPatch.DiscardCardsThisBattle;
     }
 
     public void calculateCardDamage(AbstractMonster mo) {

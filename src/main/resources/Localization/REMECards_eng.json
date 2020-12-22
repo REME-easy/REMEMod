@@ -334,5 +334,37 @@
   "REME_SelfUpgrade": {
     "NAME": "Self Upgrade",
     "DESCRIPTION": "Add !M! additional cards in card rewards."
+  },
+  "REME_WheelOfFate": {
+    "NAME": "Wheel Of Fate",
+    "DESCRIPTION": "Spin the *Wheel *Of *Fate . NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deal !D! damage !M! times.)",
+      "Wheel Of Fate",
+      "Trigger one randomly. NL 1.Gain #b"," 点 #yGold. NL 2.Gain a #yCommon relic. NL 3.Heal #b"," HP,gain #b"," 点 #yBlock . NL 4.Open the #yPuzzle #yBox . NL 5. #yExhaust your hand and add that many random cards cost 0 this turn. NL 6.Deal 6 damage to random enemy 6 times."
+    ]
+  },
+  "REME_BodyOfCthun": {
+    "NAME": "Body Of C`Thun",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust."
+  },
+  "REME_EyeOfCthun": {
+    "NAME": "Eye Of C`Thun",
+    "DESCRIPTION": "Lose !D! HP randomly split among ALL enemies. NL Exhaust."
+  },
+  "REME_HeartOfCthun": {
+    "NAME": "Heart Of C`Thun",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Exhaust."
+  },
+  "REME_MawOfCthun": {
+    "NAME": "Maw Of C`Thun",
+    "DESCRIPTION": "Enemy loses !M! Strength. NL Apply !M! Weak. NL Exhaust."
+  },
+  "REME_CthunTheShattered": {
+    "NAME": "The Shattered",
+    "DESCRIPTION": "Random enemy lose 1% of their Max HP.Repeat !D! times. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL ( Pieces *"," / *4 )"
+    ]
   }
 }

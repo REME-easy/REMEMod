@@ -42,17 +42,17 @@ public class Revenger extends CustomMonster {
         int slashDmg;
         int multiDmg;
         if (AbstractDungeon.ascensionLevel >= 7) {
-            this.setHp(162, 170);
+            this.setHp(155, 166);
         } else {
-            this.setHp(156, 164);
+            this.setHp(150, 160);
         }
 
         if (AbstractDungeon.ascensionLevel >= 2) {
-            slashDmg = 22;
-            multiDmg = 6;
+            slashDmg = 20;
+            multiDmg = 5;
         }else{
-            slashDmg = 19;
-            multiDmg = 8;
+            slashDmg = 18;
+            multiDmg = 7;
         }
         this.damage.add(new DamageInfo(this, slashDmg));
         this.damage.add(new DamageInfo(this, multiDmg));

@@ -252,5 +252,37 @@
   "REME_shoujiao": {
     "NAME": "收缴",
     "DESCRIPTION": "将抽牌堆顶端 !M! 张牌（不足会从弃牌堆中选取） *收入囊中 。"
+  },
+  "REME_WheelOfFate": {
+    "NAME": "命运之轮",
+    "DESCRIPTION": "转动 *尤格-萨隆 的 *命运之轮 。 NL  消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （造成 !D! 点伤害 !M! 次）",
+      "命运之轮",
+      "随机触发一个效果。 NL 1.获得 #b"," 点 #y金币。 NL 2.获得一个 #y普通 遗物。 NL 3.回复 #b"," 点生命，获得 #b"," 点 #y格挡 。 NL 4.打开 #y谜之匣 。 NL 5.消耗你的手牌，将等量牌置入手中且耗能为 #b0 。 NL 6.对随机敌人造成 #b6 点伤害 #b6 次。"
+    ]
+  },
+  "REME_BodyOfCthun": {
+    "NAME": "克苏恩之躯",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL  消耗 。"
+  },
+  "REME_EyeOfCthun": {
+    "NAME": "克苏恩之眼",
+    "DESCRIPTION": "造成 !D! 点 *生命流失 ，随机分配给所有敌人。 NL  消耗 。"
+  },
+  "REME_HeartOfCthun": {
+    "NAME": "克苏恩之心",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL  消耗 。"
+  },
+  "REME_MawOfCthun": {
+    "NAME": "克苏恩之口",
+    "DESCRIPTION": "给予 !M! 层 虚弱 。 NL 使目标失去 !M! 点 力量 。 NL  消耗 。"
+  },
+  "REME_CthunTheShattered": {
+    "NAME": "破碎之劫",
+    "DESCRIPTION": "使随机敌人失去最大生命的1%，重复 !D! 次。 NL  消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ 克苏恩碎片 *"," / *4 ）"
+    ]
   }
 }

@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import java.util.Iterator;
 
 public class IncrementDiscardPatch {
+    public static int DiscardCardsThisBattle;
     public IncrementDiscardPatch() {
     }
 
@@ -27,6 +28,7 @@ public class IncrementDiscardPatch {
         }
 
         public static SpireReturn<Void> Prefix(boolean endOfTurn) {
+            DiscardCardsThisBattle++;
             Iterator var1 = AbstractDungeon.player.powers.iterator();
 
             while(var1.hasNext()) {

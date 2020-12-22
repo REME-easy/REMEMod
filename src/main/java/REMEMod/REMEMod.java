@@ -7,6 +7,9 @@ import REMEMod.Cards.Blue.Power.SelfUpgrade;
 import REMEMod.Cards.Blue.Skill.Compress;
 import REMEMod.Cards.Blue.Skill.Whirling;
 import REMEMod.Cards.Colorless.Attack.AllRoundStrike;
+import REMEMod.Cards.Colorless.Attack.CthunTheShattered;
+import REMEMod.Cards.Colorless.Attack.EyeOfCthun;
+import REMEMod.Cards.Colorless.Attack.HeartOfCthun;
 import REMEMod.Cards.Colorless.Power.BattleFury;
 import REMEMod.Cards.Colorless.Power.FirmDetermination;
 import REMEMod.Cards.Colorless.Power.Flogging;
@@ -33,6 +36,9 @@ import REMEMod.Cards.Red.Skill.Scribble;
 import REMEMod.Cards.Red.Skill.SingleHolding;
 import REMEMod.Helpers.SecondaryMagicVariable;
 import REMEMod.Monsters.Revenger;
+import REMEMod.Patches.IncrementDiscardPatch;
+import REMEMod.Potions.GoldPotion;
+import REMEMod.Relics.Boss.ChargedStone;
 import REMEMod.Relics.Boss.DemonsWealth;
 import REMEMod.Relics.Boss.DuelDisc;
 import REMEMod.Relics.Boss.LowDesire;
@@ -45,6 +51,7 @@ import REMEMod.Relics.Special.ComplimentaryCards;
 import REMEMod.Relics.Uncommon.ArchaeologicalTools;
 import REMEMod.Relics.Uncommon.HourglassOfDeath;
 import REMEMod.Relics.Uncommon.LimitBreaker;
+import REMEMod.Relics.Uncommon.PoisonedDagger;
 import basemod.BaseMod;
 import basemod.helpers.RelicType;
 import basemod.interfaces.*;
@@ -116,9 +123,33 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
         BaseMod.addCard(new TheoryOfElimination());
         BaseMod.addCard(new EmptyShield());
         BaseMod.addCard(new SelfUpgrade());
+        BaseMod.addCard(new WheelOfFate());
+        BaseMod.addCard(new CthunTheShattered());
+        BaseMod.addCard(new EyeOfCthun());
+        BaseMod.addCard(new MawOfCthun());
+        BaseMod.addCard(new HeartOfCthun());
+        BaseMod.addCard(new BodyOfCthun());
 
         BaseMod.addCard(new CurseOfMatryoshka());
-}
+        receiveEditPotions();
+    }
+
+    private void receiveEditPotions() {
+        Object[] potions = new Object[]{GoldPotion.class};
+        Object[] var4 = potions;
+        int var3 = potions.length;
+
+        for(int var2 = 0; var2 < var3; ++var2) {
+            Object o = var4[var2];
+            Class c = (Class)o;
+
+            try {
+                BaseMod.addPotion(c, null, null, null, (String)c.getField("POTION_ID").get(null));
+            } catch (IllegalAccessException | NoSuchFieldException | SecurityException | IllegalArgumentException var7) {
+                var7.printStackTrace();
+            }
+        }
+    }
 
     public void receiveEditRelics() {
         BaseMod.addRelic(new HandOfSuture(), RelicType.SHARED);
@@ -133,6 +164,9 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
         BaseMod.addRelic(new ArchaeologicalTools(), RelicType.SHARED);
         BaseMod.addRelic(new LowDesire(), RelicType.SHARED);
         BaseMod.addRelic(new IWantAll(), RelicType.SHARED);
+        BaseMod.addRelic(new ChargedStone(), RelicType.SHARED);
+
+        BaseMod.addRelic(new PoisonedDagger(), RelicType.GREEN);
     }
 
     public void receiveEditStrings() {
@@ -142,9 +176,9 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
         } else {
             lang = "eng";
         }
-
         BaseMod.loadCustomStringsFile(RelicStrings.class, "Localization/REMERelics_" + lang + ".json");
         BaseMod.loadCustomStringsFile(CardStrings.class, "Localization/REMECards_" + lang + ".json");
+        BaseMod.loadCustomStringsFile(PotionStrings.class, "Localization/REMEPotion_" + lang + ".json");
         BaseMod.loadCustomStringsFile(PowerStrings.class, "Localization/REMEPowers_" + lang + ".json");
         BaseMod.loadCustomStringsFile(MonsterStrings.class, "Localization/REMEMonsters_" + lang + ".json");
         BaseMod.loadCustomStringsFile(UIStrings.class, "Localization/REMEUI_" + lang + ".json");
@@ -185,25 +219,20 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
     }
 
     public void receivePostDungeonInitialize(){
-        if(AbstractDungeon.getCurrRoom() != null){
-            obtain(AbstractDungeon.player,new ComplimentaryCards(),false);
+        if (AbstractDungeon.floorNum <= 1) {
+            AbstractPlayer p = AbstractDungeon.player;
+            AbstractRelic r = new ComplimentaryCards();
+            if (!p.hasRelic(r.relicId)) {
+                int slot = p.relics.size();
+                r.makeCopy().instantObtain(p, slot, true);
+            }
+
         }
     }
 
     public void receiveOnBattleStart(AbstractRoom var1){
-
-    }
-
-    public static boolean obtain(AbstractPlayer p, AbstractRelic r, boolean canDuplicate) {
-        if (r == null) {
-            return false;
-        } else if (p.hasRelic(r.relicId) && !canDuplicate) {
-            return false;
-        } else {
-            int slot = p.relics.size();
-            r.makeCopy().instantObtain(p, slot, true);
-            return true;
-        }
+        IncrementDiscardPatch.DiscardCardsThisBattle = 0;
+        CthunTheShattered.Pieces.clear();
     }
 }
 

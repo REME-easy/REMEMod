@@ -19,13 +19,13 @@ public class ShadowFormPower extends AbstractREMEPower {
 
     public ShadowFormPower(AbstractCreature owner, int Amount) {
         this.name = NAME;
-        this.ID = "REME_ShadowFormPower";
+        this.ID = POWER_ID;
         this.owner = owner;
         this.amount = Amount;
-        this.amount2 = 0;
+        this.amount2 = Math.min(Amount, AbstractDungeon.actionManager.cardsPlayedThisTurn.size());
         this.type = PowerType.BUFF;
-        String path128 = "remeImg/powers/pmmod.png";
-        String path48 = "remeImg/powers/pmmod.png";
+        String path128 = "remeImg/powers/ShadowForm84.png";
+        String path48 = "remeImg/powers/ShadowForm32.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);
         this.updateDescription();

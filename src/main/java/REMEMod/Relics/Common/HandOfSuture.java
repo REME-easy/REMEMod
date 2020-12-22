@@ -41,7 +41,6 @@ public class HandOfSuture extends CustomRelic {
         } while(card.cost == -1);
 
         cards.add(card);
-        AbstractCard topcard = cards.get(0);
 
         while(cards.size() != 2) {
             int roll = AbstractDungeon.cardRandomRng.random(99);
@@ -55,7 +54,7 @@ public class HandOfSuture extends CustomRelic {
             }
 
             AbstractCard card2 = CardLibrary.getAnyColorCard(cardRarity).makeStatEquivalentCopy();
-            if (card2.cost != -1 && card2.cost + topcard.cost <= AbstractDungeon.player.energy.energyMaster) {
+            if (card2.cost != -1) {
                 cards.add(card);
             }
         }

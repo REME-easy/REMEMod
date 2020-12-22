@@ -16,7 +16,7 @@ public class TheoryOfElimination extends CustomCard {
     private static final String NAME = cardStrings.NAME;
     private static final String DESCRIPTION = cardStrings.DESCRIPTION;
     private static final String IMG_PATH = "remeImg/cards/TheoryOfElimination.png";
-    private static final int COST = 1;
+    private static final int COST = 0;
 
     public TheoryOfElimination() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,

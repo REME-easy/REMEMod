@@ -2,356 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4b7232-3906-4834-8d5f-df2232508926" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Actions/CthunDamageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Actions/CthunPiecesAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Actions/WheelOfFateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/CthunTheShattered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/EyeOfCthun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/HeartOfCthun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/BodyOfCthun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/MawOfCthun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/WheelOfFate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Potions/AbstractREMEPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Potions/GoldPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/ChargedStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/PoisonedDagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunAreaEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunPiecesEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/vfx/FloatingCardEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/REMEMod/vfx/WheelOfFateEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMEPotion_eng.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMEPotion_zh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/ChargedStone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Attack/DataAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Attack/DataAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Attack/ForAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Attack/ForAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Attack/Shoggoth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Attack/Shoggoth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/MagicShapingShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/MagicShapingShield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/SelfUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/SelfUpgrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/Upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/Upload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Skill/Compress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Skill/Compress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Skill/Whirling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Skill/Whirling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/AllRoundStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/AllRoundStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/BattleFury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/BattleFury.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/FirmDetermination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/FirmDetermination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/Flogging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/Flogging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/BuildACard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/BuildACard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/MagicPocketWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/MagicPocketWatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/ProfessionalPlagiarism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/ProfessionalPlagiarism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/PuzzleBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/PuzzleBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/ShortnessOfBreath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/ShortnessOfBreath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/SutureCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/SutureCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/TheoryOfElimination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/TheoryOfElimination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/TwoStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/TwoStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Curses/CurseOfMatryoshka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Curses/CurseOfMatryoshka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/GrazeFinale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/GrazeFinale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/ShadowStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/ShadowStrike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/SpectralBlade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/SpectralBlade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Power/GreenPollution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Power/GreenPollution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Power/ShadowForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Power/ShadowForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Skill/CopyPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Skill/CopyPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Power/MusicOfDeath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Power/MusicOfDeath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/CRH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/CRH.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/EmptyShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/EmptyShield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/Repentance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/Repentance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/WorshipGod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/WorshipGod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Attack/ResidualAnger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Attack/ResidualAnger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Attack/TheLastStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Attack/TheLastStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Power/Cut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Power/Cut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Power/FearOfPain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Power/FearOfPain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/ACTH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/ACTH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/Fury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/Fury.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/Scribble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/Scribble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/SingleHolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Skill/SingleHolding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/BattleFuryPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/BattleFuryPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/CutPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/CutPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/ExtraTimePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/ExtraTimePower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/FearOfPainPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/FearOfPainPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/FloggingPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/FloggingPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/MusicOfDeathPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/MusicOfDeathPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/RepentancePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/RepentancePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Monsters/Revenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Monsters/Revenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Patches/IncrementDiscardPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Patches/IncrementDiscardPatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/ShadowFormPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/ShadowFormPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/UploadPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Powers/UploadPower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/REMEMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/REMEMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/DemonsWealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/DemonsWealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/DuelDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/DuelDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/LowDesire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/LowDesire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Common/HandOfSuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Common/HandOfSuture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Common/PuzzleBoxRelic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Common/PuzzleBoxRelic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Rare/IWantAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Rare/IWantAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Shop/CardOfGreed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Shop/CardOfGreed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Shop/OnlineShoppingPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Shop/OnlineShoppingPlatform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Special/ComplimentaryCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Special/ComplimentaryCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/ArchaeologicalTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/ArchaeologicalTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/HourglassOfDeath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/HourglassOfDeath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/LimitBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/LimitBreaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/VIPCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/Relics/VIPCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CowEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CowEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Localization/REMECards_eng.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMECards_eng.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Localization/REMECards_zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMECards_zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_eng.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_eng.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_eng.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_eng.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_zh.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ACTH.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ACTH.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ACTH_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ACTH_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/AllRoundStrike.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/AllRoundStrike.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/AllRoundStrike_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/AllRoundStrike_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/BattleFury.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/BattleFury.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/BattleFury_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/BattleFury_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/BuildACard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/BuildACard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/BuildACard_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/BuildACard_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/CRH.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/CRH.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/CRH_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/CRH_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Compress.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Compress.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Compress_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Compress_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/CopyPotion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/CopyPotion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/CopyPotion_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/CopyPotion_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/CurseOfMatryoshka.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/CurseOfMatryoshka.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/CurseOfMatryoshka_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/CurseOfMatryoshka_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Cut.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Cut_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Cut_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/DataAnalysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/DataAnalysis.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/DataAnalysis_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/DataAnalysis_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/EmptyShield.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/EmptyShield.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/EmptyShield_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/EmptyShield_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/FearOfPain.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/FearOfPain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/FearOfPain_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/FearOfPain_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/FirmDetermination.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/FirmDetermination.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/FirmDetermination_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/FirmDetermination_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Flogging.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Flogging.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Flogging_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Flogging_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ForAll.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ForAll.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ForAll_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ForAll_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Fury.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Fury.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Fury_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Fury_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/GrazeFinale.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/GrazeFinale.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/GrazeFinale_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/GrazeFinale_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/GreenPollution.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/GreenPollution.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/GreenPollution_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/GreenPollution_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/MagicPocketWatch.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/MagicPocketWatch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/MagicPocketWatch_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/MagicPocketWatch_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/MagicShapingShield.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/MagicShapingShield.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/MagicShapingShield_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/MagicShapingShield_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/MusicOfDeath.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/MusicOfDeath.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/MusicOfDeath_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/MusicOfDeath_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ProfessionalPlagiarism.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ProfessionalPlagiarism.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ProfessionalPlagiarism_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ProfessionalPlagiarism_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/PuzzleBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/PuzzleBox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/PuzzleBox_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/PuzzleBox_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Repentance.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Repentance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Repentance_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Repentance_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ResidualAnger.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ResidualAnger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ResidualAnger_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ResidualAnger_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Scribble.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Scribble.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Scribble_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Scribble_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/SelfUpgrade.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/SelfUpgrade.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/SelfUpgrade_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/SelfUpgrade_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ShadowForm.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ShadowForm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ShadowForm_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ShadowForm_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ShadowStrike.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ShadowStrike.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ShadowStrike_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ShadowStrike_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Shoggoth.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Shoggoth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Shoggoth_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Shoggoth_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ShortnessOfBreath.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ShortnessOfBreath.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/ShortnessOfBreath_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/ShortnessOfBreath_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/SingleHolding.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/SingleHolding.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/SingleHolding_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/SingleHolding_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/SpectralBlade.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/SpectralBlade.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/SpectralBlade_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/SpectralBlade_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TheLastStrike.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TheLastStrike.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TheLastStrike_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TheLastStrike_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TheoryOfElimination.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TheoryOfElimination.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TheoryOfElimination_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TheoryOfElimination_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TrolleyProblem.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TrolleyProblem.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TrolleyProblem_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TrolleyProblem_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TwoStrings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TwoStrings.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/TwoStrings_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/TwoStrings_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Whirling.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Whirling.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/Whirling_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/Whirling_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/WorshipGod.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/WorshipGod.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/WorshipGod_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/cards/WorshipGod_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/BattleFury32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/BattleFury32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/BattleFury84.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/BattleFury84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/Brilliance32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/Brilliance32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/Brilliance84.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/Brilliance84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/Cut32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/Cut32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/Cut84.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/Cut84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/ExtraTime32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/ExtraTime32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/ExtraTime84.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/ExtraTime84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/MagicShapingShield32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/MagicShapingShield32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/MagicShapingShield84.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/MagicShapingShield84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/MusicOfDeath32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/MusicOfDeath32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/MusicOfDeath84.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/MusicOfDeath84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/Repentance32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/Repentance32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/Repentance84.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/Repentance84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/powers/pmmod.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/powers/pmmod.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/ArchaeologicalTools.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/ArchaeologicalTools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/CardOfGluttony.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/CardOfGluttony.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/CardOfGreed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/CardOfGreed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/ComplimentaryCards.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/ComplimentaryCards.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/DemonsWealth.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/DemonsWealth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/DuelDisc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/DuelDisc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/HandOfSuture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/HandOfSuture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/HourglassOfDeath.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/HourglassOfDeath.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/IWantAll.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/IWantAll.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/LimitBreaker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/LimitBreaker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/LowDesire.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/LowDesire.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/OnlineShoppingPlatform.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/OnlineShoppingPlatform.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/PuzzleBoxRelic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/PuzzleBoxRelic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/relics/Singularity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/relics/Singularity.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/vfx/cow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/remeImg/vfx/cow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/REMEMod.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/REMEMod.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Localization/REMECards_zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Localization/REMECards_zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Localization/REMERelics_zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Localization/REMERelics_zh.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ModTheSpire.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ModTheSpire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Actions/ShoggothAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Actions/ShoggothAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Attack/DataAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Attack/DataAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Attack/ForAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Attack/ForAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Attack/Shoggoth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Attack/Shoggoth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Power/MagicShapingShield.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Power/MagicShapingShield.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Power/SelfUpgrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Power/SelfUpgrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Power/Upload.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Power/Upload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Skill/Compress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Skill/Compress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Skill/Whirling.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Blue/Skill/Whirling.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Attack/AllRoundStrike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Attack/AllRoundStrike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Power/BattleFury.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Power/BattleFury.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Power/FirmDetermination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Power/FirmDetermination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Power/Flogging.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Power/Flogging.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/BuildACard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/BuildACard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/MagicPocketWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/MagicPocketWatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/ProfessionalPlagiarism.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/ProfessionalPlagiarism.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/PuzzleBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/PuzzleBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/ShortnessOfBreath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/ShortnessOfBreath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/SutureCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/SutureCard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/TheoryOfElimination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/TheoryOfElimination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/TwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Colorless/Skill/TwoStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Curses/CurseOfMatryoshka.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Curses/CurseOfMatryoshka.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Attack/GrazeFinale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Attack/GrazeFinale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Attack/ShadowStrike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Attack/ShadowStrike.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Attack/SpectralBlade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Attack/SpectralBlade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Power/GreenPollution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Power/GreenPollution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Power/ShadowForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Power/ShadowForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Skill/CopyPotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Green/Skill/CopyPotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Power/MusicOfDeath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Power/MusicOfDeath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/CRH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/CRH.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/EmptyShield.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/EmptyShield.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/Repentance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/Repentance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/WorshipGod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Purple/Skill/WorshipGod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Attack/ResidualAnger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Attack/ResidualAnger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Attack/TheLastStrike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Attack/TheLastStrike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Power/Cut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Power/Cut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Power/FearOfPain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Power/FearOfPain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/ACTH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/ACTH.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/Fury.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/Fury.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/Scribble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/Scribble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/SingleHolding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Cards/Red/Skill/SingleHolding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/BattleFuryPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/BattleFuryPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/CutPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/CutPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/ExtraTimePower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/ExtraTimePower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/FearOfPainPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/FearOfPainPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/FloggingPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/FloggingPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/MusicOfDeathPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/MusicOfDeathPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/RepentancePower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/RepentancePower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Patches/IncrementDiscardPatch$DiscardPatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Patches/IncrementDiscardPatch$DiscardPatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Patches/IncrementDiscardPatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Patches/IncrementDiscardPatch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/ShadowFormPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/ShadowFormPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Powers/UploadPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Powers/UploadPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Boss/DemonsWealth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Boss/DemonsWealth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Boss/DuelDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Boss/DuelDisc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Boss/LowDesire.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Boss/LowDesire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/REMEMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/REMEMod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Common/HandOfSuture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Common/HandOfSuture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Common/PuzzleBoxRelic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Common/PuzzleBoxRelic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Rare/IWantAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Rare/IWantAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Shop/CardOfGreed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Shop/CardOfGreed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Shop/OnlineShoppingPlatform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Shop/OnlineShoppingPlatform.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Special/ComplimentaryCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Special/ComplimentaryCards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Uncommon/ArchaeologicalTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Uncommon/ArchaeologicalTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Uncommon/HourglassOfDeath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Uncommon/HourglassOfDeath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Uncommon/LimitBreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/Uncommon/LimitBreaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/Relics/VIPCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/Relics/VIPCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/REMEMod/vfx/CowEffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/REMEMod/vfx/CowEffect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ACTH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ACTH_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/AllRoundStrike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/AllRoundStrike_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/BattleFury.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/BattleFury_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/BuildACard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/BuildACard_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/CRH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/CRH_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Compress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Compress_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/CopyPotion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/CopyPotion_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/CurseOfMatryoshka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/CurseOfMatryoshka_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Cut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Cut_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/DataAnalysis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/DataAnalysis_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/EmptyShield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/EmptyShield_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/FearOfPain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/FearOfPain_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/FirmDetermination.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/FirmDetermination_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Flogging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Flogging_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ForAll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ForAll_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Fury.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Fury_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/GrazeFinale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/GrazeFinale_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/GreenPollution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/GreenPollution_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/MagicPocketWatch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/MagicPocketWatch_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/MagicShapingShield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/MagicShapingShield_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/MusicOfDeath.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/MusicOfDeath_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ProfessionalPlagiarism.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ProfessionalPlagiarism_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/PuzzleBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/PuzzleBox_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Repentance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Repentance_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ResidualAnger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ResidualAnger_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Scribble.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Scribble_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/SelfUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/SelfUpgrade_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ShadowForm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ShadowForm_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ShadowStrike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ShadowStrike_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Shoggoth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Shoggoth_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ShortnessOfBreath.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/ShortnessOfBreath_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/SingleHolding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/SingleHolding_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/SpectralBlade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/SpectralBlade_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TheLastStrike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TheLastStrike_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TheoryOfElimination.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TheoryOfElimination_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TrolleyProblem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TrolleyProblem_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TwoStrings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/TwoStrings_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Whirling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/Whirling_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/WorshipGod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/cards/WorshipGod_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/BattleFury32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/BattleFury84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/Brilliance32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/Brilliance84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/Cut32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/Cut84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/ExtraTime32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/ExtraTime84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/MagicShapingShield32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/MagicShapingShield84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/MusicOfDeath32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/MusicOfDeath84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/Repentance32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/Repentance84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/powers/pmmod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/ArchaeologicalTools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/CardOfGluttony.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/CardOfGreed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/ComplimentaryCards.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/DemonsWealth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/DuelDisc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/HandOfSuture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/HourglassOfDeath.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/IWantAll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/LimitBreaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/LowDesire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/OnlineShoppingPlatform.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/PuzzleBoxRelic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/relics/Singularity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/vfx/cow.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -373,19 +81,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/BuildACardAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMECards_zh.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+            <state relative-caret-position="-2143">
+              <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/dungeons/AbstractDungeon.class">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMECards_eng.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="700" column="35" selection-start-line="700" selection-start-column="31" selection-end-line="700" selection-end-column="35" />
+            <state relative-caret-position="4765">
+              <caret line="366" column="21" selection-start-line="366" selection-start-column="21" selection-end-line="366" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_eng.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/REMEMod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-466">
+              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
             </state>
           </provider>
         </entry>
@@ -393,53 +119,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Monsters/Revenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/PlayAnimationAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunAreaEffect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="428">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/AbstractGameAction.class">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMERelics_eng.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="511">
+              <caret line="170" column="63" selection-start-line="170" selection-start-column="63" selection-end-line="170" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/BattleFuryPower.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/vfx/WheelOfFateEffect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="118">
+              <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/REMEMod.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ModTheSpire.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/ShadowFormPower.java">
+        <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/events/shrines/GremlinWheelGame.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="-1020">
+              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -455,36 +184,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>弃</find>
-      <find>stance</find>
-      <find>m</find>
-      <find>分裂</find>
-      <find>render</find>
-      <find>问号</find>
-      <find>只</find>
-      <find>y</find>
-      <find>current_x</find>
-      <find>自我</find>
-      <find>getrewa</find>
-      <find>毒雾</find>
-      <find>削</find>
-      <find>scra</find>
-      <find>scry</find>
-      <find>spir</find>
-      <find>perf</find>
-      <find>bag</find>
-      <find>ques</find>
-      <find>skull</find>
-      <find>add</find>
-      <find>maxhp</find>
-      <find>ex</find>
-      <find>fire</find>
-      <find>ref</find>
-      <find>将你手牌</find>
-      <find>手牌中的</find>
-      <find>canplay</find>
-      <find>img</find>
-      <find>game</find>
+      <find>石</find>
+      <find>符文</find>
+      <find>先</find>
+      <find>飞机</find>
+      <find>test</find>
+      <find>wheel</find>
+      <find>转盘</find>
+      <find>消耗</find>
+      <find>黄昏</find>
+      <find>咬</find>
+      <find>随机</find>
+      <find>放血</find>
+      <find>御血术</find>
+      <find>对所有</find>
+      <find>重锤</find>
+      <find>然</find>
+      <find>虚弱</find>
+      <find>CthunPiecesEffect</find>
+      <find>this.curSize</find>
+      <find>刀</find>
+      <find>times</find>
+      <find>mble</find>
+      <find>all</find>
+      <find>mal</find>
+      <find>fa</find>
+      <find>sh</find>
+      <find>lose hp</find>
+      <find>toy</find>
+      <find>REMEMod:</find>
+      <find>shiv</find>
     </findStrings>
     <replaceStrings>
       <replace>for(AbstractCard c:this.sutureCards)</replace>
@@ -493,6 +222,7 @@
       <replace>WHEEL_LABEL</replace>
       <replace>DexterityPower</replace>
       <replace>remeImg</replace>
+      <replace>SIZE</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -501,57 +231,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/CutPowerAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/CutPower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/LowDesire.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/ContingencyContract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/CardOfGluttony.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Attack/TheLastStrike.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/Flogging.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/CompressDrawAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Skill/Compress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Patches/IncrementDiscardPatch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/EmptyShield.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/TheoryScryAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/TwoStrings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/SpectralBlade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/TheoryOfElimination.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEMonsters_zh.json" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/FloggingParticleWhiteEffect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/ParticleRedEffect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/PlayAnimationAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/RevengePower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Monsters/Revenger.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEUI_zh.json" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/IWantAll.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Shop/CardOfGreed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Common/HandOfSuture.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_zh.json" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Screens/WantAllButton.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEPowers_zh.json" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/GreenPollutionPower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/AbstractREMEPower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/SelfUpgrade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/SelfUpgradePower.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEMonsters_eng.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEPowers_eng.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_eng.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEUI_eng.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMECards_eng.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMECards_zh.json" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/MagicShapingShield.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/SutureCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/BattleFury.java" />
-        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/AllRoundStrike.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/PuzzleBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/HourglassOfDeath.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Rare/IWantAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/DuelDisc.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/FloggingPower.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/BattleFuryPower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/ShoggothAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/Powers/ShadowFormPower.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/ChargedStone.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_zh.json" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Potions/AbstractTestPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEPotion_zh.json" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Potions/AbstractREMEPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Common/HandOfSuture.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEPotion_eng.json" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/WheelOfFate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Potions/GoldPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/WheelOfFateAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Patches/IncrementDiscardPatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/SpectralBlade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/TheoryOfElimination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/EmptyShield.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Attack/DataAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunBallEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/FloggingAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunDamageEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Attack/TheLastStrike.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunAreaEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/BodyOfCthun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/EyeOfCthun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/HeartOfCthun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunPiecesEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/FloatingCardEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/CthunPiecesAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunParticleEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Actions/CthunDamageAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_zh.json" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/CthunTheShattered.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/AllRoundStrike.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/PoisonedDagger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/MawOfCthun.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMERelics_eng.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_eng.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMECards_eng.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/Localization/REMECards_zh.json" />
         <option value="$PROJECT_DIR$/src/main/java/REMEMod/REMEMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/Monsters/Revenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/REMEMod/vfx/WheelOfFateEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" />
       </list>
     </option>
   </component>
@@ -572,15 +302,18 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="560" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -640,6 +373,59 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
               <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Blue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Blue" type="462c0819:PsiDirectoryNode" />
+              <item name="Attack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Colorless" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Colorless" type="462c0819:PsiDirectoryNode" />
+              <item name="Attack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Colorless" type="462c0819:PsiDirectoryNode" />
+              <item name="Skill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
               <item name="Green" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -660,7 +446,67 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Purple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Purple" type="462c0819:PsiDirectoryNode" />
+              <item name="Skill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Red" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="Red" type="462c0819:PsiDirectoryNode" />
+              <item name="Attack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
               <item name="Monsters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Patches" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Potions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
@@ -676,7 +522,48 @@
               <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Relics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Relics" type="462c0819:PsiDirectoryNode" />
+              <item name="Boss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Relics" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="Relics" type="462c0819:PsiDirectoryNode" />
+              <item name="Uncommon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="vfx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
@@ -684,7 +571,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="revenger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
@@ -693,6 +579,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Localization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REMEMod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="remeImg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
@@ -737,7 +631,7 @@
               <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cardcrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="monsters" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
@@ -746,49 +640,8 @@
               <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cardcrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="monsters" type="462c0819:PsiDirectoryNode" />
-              <item name="city" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
-              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cardcrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="orbs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
-              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
-              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="npcs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
-              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="npcs" type="462c0819:PsiDirectoryNode" />
-              <item name="rug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
-              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="shrines" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
@@ -796,6 +649,14 @@
               <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
               <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="localization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
+              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="localization" type="462c0819:PsiDirectoryNode" />
+              <item name="eng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
@@ -805,33 +666,38 @@
               <item name="localization" type="462c0819:PsiDirectoryNode" />
               <item name="zhs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="REMEMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.megacrit.cardcrawl:slaythespire:2020-07-30" type="70bed36:NamedLibraryElementNode" />
+              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="vfx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-2018-12/CerberMod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/remeImg" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Program Files\REMEMod\src\main\resources\img" />
+      <recent name="D:\Program Files\REMEMod\src\main\resources\remeImg" />
       <recent name="D:\Program Files\REMEMod\src\main\resources\Localization" />
+      <recent name="D:\Program Files\REMEMod\src\main\resources\img" />
       <recent name="D:\Program Files\REMEMod\src\main\java\REMEMod\vfx" />
       <recent name="D:\Program Files\REMEMod\src\main\resources\img\powers" />
-      <recent name="D:\Program Files\REMEMod\src\main\resources\img\cards" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="REMEMod.Powers" />
-      <recent name="REMEMod.Cards.Blue.Power" />
-      <recent name="REMEMod.Actions" />
       <recent name="REMEMod.vfx" />
+      <recent name="REMEMod.Actions" />
+      <recent name="REMEMod.Cards.Colorless.Attack" />
       <recent name="REMEMod.Cards.Colorless.Skill" />
+      <recent name="REMEMod.Relics.Uncommon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Program Files\REMEMod\src\main\resources" />
@@ -860,13 +726,37 @@
       <option name="presentableId" value="Default" />
       <updated>1591582408541</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix1">
+      <created>1608096368542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608096368542</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix1">
+      <created>1608096652484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608096652484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.37600535" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.31367293" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.3069705" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -879,12 +769,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295129" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32956153" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24932976" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -924,325 +814,367 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix1" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/screens/select/HandCardSelectScreen.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4065">
-          <caret line="295" column="29" selection-start-line="295" selection-start-column="29" selection-end-line="295" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/unique/DualWieldAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMECards_eng.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/unique/ArmamentsAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/helpers/FontHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="126" column="25" lean-forward="true" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/AbstractCard.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="1103" column="5" lean-forward="true" selection-start-line="1103" selection-start-column="5" selection-end-line="1103" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/curses/Normality.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMERelics_zh.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/AbstractREMEPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Blue/Power/MagicShapingShield.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/sold_out/deu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/sale_tag/zhs.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/sale_tag/ukr.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/sale_tag/rus.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/sale_tag/kor.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/sale_tag/jpn.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/rug/zhs.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/rug/deu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/purge/zhs.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/purge/ukr.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/core/AbstractCreature.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="891" column="25" selection-start-line="891" selection-start-column="25" selection-end-line="891" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/orbs/Dark.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/AllRoundStrike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/HourglassOfDeath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Relics/Rare/IWantAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/DuelDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/GreenPollutionPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/RevengePower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/FloggingPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/PuzzleBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/WorshipGod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="89" selection-start-line="89" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/PlayACardAction.java">
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/stances/DivinityStance.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Power/BattleFury.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Power/ShadowForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/MakeTempCardInHandSAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/CompressDrawAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ModTheSpire.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMECards_zh.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="233" column="18" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
+          <caret line="45" column="79" lean-forward="true" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Green/Attack/SpectralBlade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="330">
+          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/SutureCard.java">
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/relics/Necronomicon.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="19">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/BuildACardAction.java">
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/vfx/stance/StanceAuraEffect.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        <state relative-caret-position="558">
+          <caret line="78" column="1" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="78" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Monsters/Revenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/PlayAnimationAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/AbstractGameAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/ShadowFormPower.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Red/Attack/TheLastStrike.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <caret line="36" selection-start-line="36" selection-end-line="38" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/monsters/city/BookOfStabbing.class">
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/animations/VFXAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="156" column="16" lean-forward="true" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
+        <state relative-caret-position="-15">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/localization/zhs/events.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/WheelOfFate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="462" column="5" selection-start-line="462" selection-start-column="5" selection-end-line="462" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="47" selection-start-line="47" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#2328#2329#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/GameActionManager.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/BodyOfCthun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" selection-start-line="31" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/green/Malaise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/unique/MalaiseAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="50" selection-start-line="50" selection-end-line="51" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunPiecesEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="60" column="87" selection-start-line="60" selection-start-column="87" selection-end-line="60" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/helpers/FontHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="1079" lean-forward="true" selection-start-line="1079" selection-end-line="1079" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/vfx/FloatingCardEffect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Powers/BattleFuryPower.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/HeartOfCthun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="525">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/dungeons/AbstractDungeon.class">
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/monsters/ending/CorruptHeart.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="700" column="35" selection-start-line="700" selection-start-column="31" selection-end-line="700" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/vfx/combat/BloodShotEffect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/vfx/combat/BloodShotParticleEffect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunParticleEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/EyeOfCthun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/CthunDamageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_zh.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Purple/Skill/EmptyShield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/AllRoundStrike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/vfx/combat/slash_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/npcs/bossChest.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/ui/combat/block.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/vfx/vfx.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/vfx/vfx2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/localization/zhs/cards.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="741" column="19" selection-start-line="741" selection-start-column="19" selection-end-line="741" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/localization/zhs/relics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="443" column="16" selection-start-line="443" selection-start-column="15" selection-end-line="443" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Relics/Uncommon/PoisonedDagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Relics/Boss/ChargedStone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Skill/MawOfCthun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Cards/Colorless/Attack/CthunTheShattered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/localization/eng/potions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/localization/eng/cards.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="771" column="22" selection-start-line="771" selection-start-column="20" selection-end-line="771" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMEPotion_eng.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMERelics_zh.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="155" column="21" lean-forward="true" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/BaseMod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="1460" column="62" lean-forward="true" selection-start-line="1460" selection-start-column="62" selection-end-line="1460" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMECards_eng.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4765">
+          <caret line="366" column="21" selection-start-line="366" selection-start-column="21" selection-end-line="366" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMECards_zh.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2143">
+          <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/localization/eng/relics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="566" column="15" selection-start-line="566" selection-start-column="7" selection-end-line="566" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMERelics_eng.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="170" column="63" selection-start-line="170" selection-start-column="63" selection-end-line="170" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Localization/REMEKeywords_eng.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/REMEMod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+        <state relative-caret-position="-466">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Monsters/Revenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/game/SteamLibrary/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/events/shrines/GremlinWheelGame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/Actions/CthunPiecesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/vfx/CthunAreaEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/REMEMod/vfx/WheelOfFateEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ModTheSpire.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>

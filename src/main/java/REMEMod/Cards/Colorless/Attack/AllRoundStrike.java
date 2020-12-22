@@ -1,11 +1,10 @@
 package REMEMod.Cards.Colorless.Attack;
 
-import REMEMod.Actions.MakeTempCardInHandSAction;
-import REMEMod.Helpers.REMECardHelper;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction.AttackEffect;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.utility.WaitAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -28,7 +27,7 @@ public class AllRoundStrike extends CustomCard {
     public AllRoundStrike() {
         super("REME_AllRoundStrike", NAME, "remeImg/cards/AllRoundStrike.png", 1,
                 DESCRIPTION, CardType.ATTACK, CardColor.COLORLESS, CardRarity.RARE, CardTarget.NONE);
-        this.damage = this.baseDamage = 4;
+        this.damage = this.baseDamage = 2;
         this.tags.add(CardTags.STRIKE);
         this.isEthereal = true;
         this.isInnate = true;
@@ -52,7 +51,9 @@ public class AllRoundStrike extends CustomCard {
 
     public void triggerOnExhaust() {
         this.Effect();
-        this.addToBot(new MakeTempCardInHandSAction(REMECardHelper.makeStatEquivalentCopy(this)));
+        AbstractCard c = makeCopy();
+        if(upgraded) c.upgrade();
+        this.addToBot(new MakeTempCardInHandAction(c));
     }
 
     private void Effect() {
@@ -75,7 +76,7 @@ public class AllRoundStrike extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeDamage(3);
+            this.upgradeDamage(1);
         }
 
     }

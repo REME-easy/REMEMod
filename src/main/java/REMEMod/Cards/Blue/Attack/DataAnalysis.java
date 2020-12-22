@@ -27,7 +27,7 @@ public class DataAnalysis extends CustomCard {
     public DataAnalysis() {
         super("REME_DataAnalysis", NAME, "remeImg/cards/DataAnalysis.png", 0, DESCRIPTION,
                 CardType.ATTACK, CardColor.BLUE, CardRarity.UNCOMMON, CardTarget.ENEMY);
-        this.magicNumber = this.baseMagicNumber = 2;
+        this.magicNumber = this.baseMagicNumber = 1;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

@@ -1,6 +1,5 @@
 package REMEMod.Cards.Red.Attack;
 
-import REMEMod.Helpers.REMECardHelper;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction.AttackEffect;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -35,8 +34,9 @@ public class TheLastStrike extends CustomCard {
         if (m != null && !m.isDeadOrEscaped() && !m.isDead) {
             this.addToBot(new DamageAction(m, new DamageInfo(AbstractDungeon.player, this.damage, this.damageTypeForTurn), AttackEffect.SLASH_DIAGONAL));
         }
-
-        this.addToBot(new MakeTempCardInHandAction(REMECardHelper.makeStatEquivalentCopy(this)));
+        AbstractCard c = makeCopy();
+        if(upgraded) c.upgrade();
+        this.addToBot(new MakeTempCardInHandAction(c));
     }
 
     public AbstractCard makeCopy() {
