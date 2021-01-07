@@ -284,5 +284,9 @@
     "EXTENDED_DESCRIPTION": [
       " NL （ 克苏恩碎片 *"," / *4 ）"
     ]
+  },
+  "REME_LeechingPoison": {
+    "NAME": "吸血药膏",
+    "DESCRIPTION": "你打出的下一张攻击牌造成伤害时，回复等量生命。 NL  消耗 。"
   }
 }

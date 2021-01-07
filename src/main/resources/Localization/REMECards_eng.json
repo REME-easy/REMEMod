@@ -366,5 +366,9 @@
     "EXTENDED_DESCRIPTION": [
       " NL ( Pieces *"," / *4 )"
     ]
+  },
+  "REME_LeechingPoison": {
+    "NAME": "Leeching Poison",
+    "DESCRIPTION": "Heal HP equal to unblocked damage next attack card played. NL Exhaust."
   }
 }

@@ -10,5 +10,9 @@
   {
     "NAMES": ["特殊易伤"],
     "DESCRIPTION": "每有一层，提高5%受到的攻击伤害。"
+  },
+  {
+    "NAMES": ["Pieces","pieces"],
+    "DESCRIPTION": "collect all C`Thun pieces and play them in a combat to shuffle *The *Shattered into draw pile."
   }
 ]

@@ -88,7 +88,7 @@
     "NAME": "LimitBreaker",
     "FLAVOR": "ahhhhhhhhhhhhhhhhhhhhhhh",
     "DESCRIPTIONS": [
-      " #yBlock , #yStrength and #yDexterity can break through #b999 ."
+      " #yBlock , #yStrength, #yDexterity , #yFocus , #yMax #yOrb #ySlots can break through limit ."
     ]
   },
   "REME_DemonsWealth": {
@@ -155,6 +155,20 @@
     "FLAVOR": "plz more",
     "DESCRIPTIONS": [
       "You can choose to obtain #yALL cards in cards rewards,and gain #b1 Max HP for each."
+    ]
+  },
+  "REME_ChargedStone": {
+    "NAME": "Charged Stone",
+    "FLAVOR": "You become eager to be beaten with this relic.",
+    "DESCRIPTIONS": [
+      "Whenever you lose HP,gain [E] next turn."
+    ]
+  },
+  "REME_PoisonedDagger": {
+    "NAME": "PoisonedDagger",
+    "FLAVOR": "This is a very poisonous Dagger(licking)",
+    "DESCRIPTIONS": [
+      "Whenever you use a potion,add one #yShiv into your hand."
     ]
   }
 }

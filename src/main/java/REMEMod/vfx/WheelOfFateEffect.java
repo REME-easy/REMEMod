@@ -110,6 +110,7 @@ public class WheelOfFateEffect extends AbstractGameEffect {
                     this.wheelAngle += this.spinVelocity * Gdx.graphics.getDeltaTime();
                     if(this.wheelAngle == this.tmpAngle){
                         this.spinVelocity = 0.0F;
+                        this.wheelAngle = this.tmpAngle;
                         this.finalStop = true;
                     }
                 }

@@ -21,6 +21,7 @@ import REMEMod.Cards.Green.Attack.SpectralBlade;
 import REMEMod.Cards.Green.Power.GreenPollution;
 import REMEMod.Cards.Green.Power.ShadowForm;
 import REMEMod.Cards.Green.Skill.CopyPotion;
+import REMEMod.Cards.Green.Skill.LeechingPoison;
 import REMEMod.Cards.Purple.Power.MusicOfDeath;
 import REMEMod.Cards.Purple.Skill.CRH;
 import REMEMod.Cards.Purple.Skill.EmptyShield;
@@ -129,6 +130,7 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
         BaseMod.addCard(new MawOfCthun());
         BaseMod.addCard(new HeartOfCthun());
         BaseMod.addCard(new BodyOfCthun());
+        BaseMod.addCard(new LeechingPoison());
 
         BaseMod.addCard(new CurseOfMatryoshka());
         receiveEditPotions();
@@ -224,9 +226,8 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
             AbstractRelic r = new ComplimentaryCards();
             if (!p.hasRelic(r.relicId)) {
                 int slot = p.relics.size();
-                r.makeCopy().instantObtain(p, slot, true);
+                r.makeCopy().instantObtain();
             }
-
         }
     }
 

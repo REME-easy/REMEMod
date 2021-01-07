@@ -88,7 +88,7 @@
     "NAME": "LimitBreaker",
     "FLAVOR": "ahhhhhhhhhhhhhhhhhhhhhhh",
     "DESCRIPTIONS": [
-      " #yBlock , #yStrength and #yDexterity can break through #b999 ."
+      " #yBlock , #yStrength, #yDexterity , #yFocus , #yMax #yOrb #ySlots can break through limit ."
     ]
   },
   "REME_DemonsWealth": {

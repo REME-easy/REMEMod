@@ -9,14 +9,17 @@ package REMEMod.Patches;
 import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.orbs.AbstractOrb;
+import com.megacrit.cardcrawl.orbs.EmptyOrbSlot;
 import com.megacrit.cardcrawl.powers.DexterityPower;
+import com.megacrit.cardcrawl.powers.FocusPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.util.Iterator;
 
@@ -24,6 +27,7 @@ public class LimitBreakerPatch {
     private static int amount = 0;
     private static int amount2 = 0;
     private static int amount3 = 0;
+    private static int amount4 = 0;
 
     public LimitBreakerPatch() {
     }
@@ -200,6 +204,92 @@ public class LimitBreakerPatch {
         }
     }
 
+    @SpirePatch(
+            clz = FocusPower.class,
+            method = "stackPower"
+    )
+    public static class stackPrefPatch {
+        public stackPrefPatch() {
+        }
+
+        public static SpireReturn<Void> Prefix(FocusPower _inst, int stackAmount) {
+            amount4 = _inst.amount;
+            return SpireReturn.Continue();
+        }
+
+
+    }
+
+    @SpirePatch(
+            clz = FocusPower.class,
+            method = "stackPower"
+    )
+    public static class stackPostfPatch {
+        public stackPostfPatch() {
+        }
+
+        public static SpireReturn<Void> Postfix(FocusPower _inst, int stackAmount) {
+            if(AbstractDungeon.player.hasRelic("REME_LimitBreaker")){
+                if(amount4 + stackAmount < 2147483646){
+                    _inst.amount = amount4 + stackAmount;
+                }else{
+                    _inst.amount = 2147483646;
+                }
+
+                if(amount4 + stackAmount > -2147483647){
+                    _inst.amount = amount4 + stackAmount;
+                }else{
+                    _inst.amount = -2147483647;
+                }
+            }
+
+            return SpireReturn.Continue();
+        }
+    }
+
+    @SpirePatch(
+            clz = FocusPower.class,
+            method = "reducePower"
+    )
+    public static class reducePrefPatch {
+        public reducePrefPatch() {
+        }
+
+        public static SpireReturn<Void> Prefix(FocusPower _inst, int stackAmount) {
+            amount4 = _inst.amount;
+            return SpireReturn.Continue();
+        }
+
+
+    }
+
+    @SpirePatch(
+            clz = FocusPower.class,
+            method = "reducePower"
+    )
+    public static class reducePostfPatch {
+        public reducePostfPatch() {
+        }
+
+        public static SpireReturn<Void> Postfix(FocusPower _inst, int stackAmount) {
+
+            if(AbstractDungeon.player.hasRelic("REME_LimitBreaker")) {
+                if (amount4 - stackAmount < 2147483646) {
+                    _inst.amount = amount4 - stackAmount;
+                } else {
+                    _inst.amount = 2147483646;
+                }
+
+                if (amount4 - stackAmount > -2147483647) {
+                    _inst.amount = amount4 - stackAmount;
+                } else {
+                    _inst.amount = -2147483647;
+                }
+            }
+            return SpireReturn.Continue();
+        }
+    }
+
 
     @SpirePatch(
             clz = AbstractCreature.class,
@@ -248,6 +338,73 @@ public class LimitBreakerPatch {
             }
             return SpireReturn.Continue();
         }
+
+
+    }
+
+    @SpirePatch(
+            clz = AbstractPlayer.class,
+            method = "increaseMaxOrbSlots"
+    )
+    public static class MaxOrbsPatch {
+        public MaxOrbsPatch() {
+        }
+
+        public static SpireReturn<Void> Prefix(AbstractPlayer _inst, int amount, boolean playSfx) {
+            if(AbstractDungeon.player.hasRelic("REME_LimitBreaker")) {
+                if(_inst.maxOrbs + amount < 2147483640){
+                    if (playSfx) {
+                        CardCrawlGame.sound.play("ORB_SLOT_GAIN", 0.1F);
+                    }
+
+                    _inst.maxOrbs += amount;
+
+                    int i;
+                    for(i = 0; i < amount; ++i) {
+                        _inst.orbs.add(new EmptyOrbSlot());
+                    }
+
+                    for(i = 0; i < _inst.orbs.size(); ++i) {
+                        (_inst.orbs.get(i)).setSlot(i, _inst.maxOrbs);
+                    }
+                }
+                return SpireReturn.Return(null);
+            }
+            return SpireReturn.Continue();
+        }
+
+
+    }
+
+    @SpirePatch(
+            clz = AbstractOrb.class,
+            method = "setSlot"
+    )
+    public static class setSlotPatch {
+        public setSlotPatch() {
+        }
+
+        public static SpireReturn<Void> Prefix(AbstractOrb _inst, int slotNum, int maxOrbs) {
+            if(AbstractDungeon.player.hasRelic("REME_LimitBreaker")) {
+                float dist = 160.0F * Settings.scale + (float)slotNum * 3.0F * Settings.scale;
+                float angle = 100.0F + (float)maxOrbs * 12.0F;
+                float offsetAngle = angle / 2.0F;
+                angle *= (float)slotNum / ((float)maxOrbs - 1.0F);
+                angle += 90.0F - offsetAngle;
+                _inst.tX = dist * MathUtils.cosDeg(angle) + AbstractDungeon.player.drawX;
+                _inst.tY = dist * MathUtils.sinDeg(angle) + AbstractDungeon.player.drawY + AbstractDungeon.player.hb_h / 2.0F;
+                if (maxOrbs == 1) {
+                    _inst.tX = AbstractDungeon.player.drawX;
+                    _inst.tY = 160.0F * Settings.scale + AbstractDungeon.player.drawY + AbstractDungeon.player.hb_h / 2.0F;
+                }
+
+                _inst.hb.move(_inst.tX, _inst.tY);
+                return SpireReturn.Return(null);
+            }
+            return SpireReturn.Continue();
+        }
+
+
 
 
     }

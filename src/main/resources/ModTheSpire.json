@@ -3,7 +3,7 @@
   "name": "【遗物卡牌】REMEMod",
   "author_list": ["REME"],
   "description": "增加一些新的卡牌和遗物。",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "sts_version": "11-30-2020",
   "mts_version": "3.15.0",
   "dependencies": ["basemod"]
