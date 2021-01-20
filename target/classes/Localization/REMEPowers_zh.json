@@ -78,5 +78,12 @@
       "本次战斗奖励的卡牌增加 #b",
       " 张。"
     ]
+  },
+  "REME_LeechingPoisonPower": {
+    "NAME": "吸血药膏",
+    "DESCRIPTIONS": [
+      "你下 #b",
+      " 张攻击牌造成伤害时，回复等量生命。"
+    ]
   }
 }

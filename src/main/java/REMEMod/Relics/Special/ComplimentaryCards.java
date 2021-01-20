@@ -56,11 +56,11 @@ public class ComplimentaryCards extends CustomRelic {
                     tmp.group.add(card);
             }while(tmp.size() != 5);
             if (!AbstractDungeon.isScreenUp) {
-                AbstractDungeon.gridSelectScreen.open(tmp, 1, false, this.DESCRIPTIONS[1]);
+                AbstractDungeon.gridSelectScreen.open(tmp, 1, true, this.DESCRIPTIONS[1]);
             } else {
                 AbstractDungeon.dynamicBanner.hide();
                 AbstractDungeon.previousScreen = AbstractDungeon.screen;
-                AbstractDungeon.gridSelectScreen.open(tmp, 1, false, this.DESCRIPTIONS[1]);
+                AbstractDungeon.gridSelectScreen.open(tmp, 1, true, this.DESCRIPTIONS[1]);
             }
         }
 

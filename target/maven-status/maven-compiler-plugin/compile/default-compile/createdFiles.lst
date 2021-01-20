@@ -1,3 +1,4 @@
+REMEMod\Patches\LimitBreakerPatch$stackPrefPatch.class
 REMEMod\Cards\Green\Power\GreenPollution.class
 REMEMod\Cards\Colorless\Power\BattleFury.class
 REMEMod\Cards\Colorless\Skill\TwoStrings.class
@@ -19,6 +20,8 @@ REMEMod\Powers\AbstractREMEPower$CardRewardsPatch.class
 REMEMod\Relics\Boss\ChargedStone.class
 REMEMod\vfx\PuzzleBoxOrbEffect.class
 REMEMod\Relics\Common\HandOfSuture.class
+REMEMod\Patches\LimitBreakerPatch$stackPostfPatch.class
+REMEMod\Cards\Green\Skill\LeechingPoison.class
 REMEMod\Actions\PlayCardsAction$1.class
 REMEMod\Cards\Blue\Attack\DataAnalysis.class
 REMEMod\Patches\LimitBreakerPatch$stackPostPatch.class
@@ -55,6 +58,7 @@ REMEMod\Relics\Shop\OnlineShoppingPlatform$UsePotionPatch.class
 REMEMod\vfx\GrazeFinaleEffect.class
 REMEMod\Relics\Boss\LowDesire$DemonsWealthPatch.class
 REMEMod\Cards\Colorless\Attack\CthunTheShattered.class
+REMEMod\Patches\LimitBreakerPatch$MaxOrbsPatch.class
 REMEMod\Actions\DrawPileToHandSAction.class
 REMEMod\vfx\CthunPiecesEffect.class
 REMEMod\Helpers\SecondaryMagicVariable.class
@@ -84,6 +88,7 @@ REMEMod\Patches\LimitBreakerPatch$stackPrePatch.class
 REMEMod\Cards\Purple\Skill\EmptyShield.class
 REMEMod\Actions\CutPowerAction.class
 REMEMod\Relics\Boss\DemonsWealth.class
+REMEMod\Patches\LimitBreakerPatch$setSlotPatch.class
 REMEMod\Actions\TwoStringsAction.class
 REMEMod\Cards\Green\Attack\SpectralBlade.class
 REMEMod\Relics\Rare\IWantAll$WantAllUpdatePatch.class
@@ -113,6 +118,7 @@ REMEMod\Powers\RepentancePower.class
 REMEMod\Actions\SingleHoldingAction.class
 REMEMod\Screens\VIPCardPopup.class
 REMEMod\Relics\Uncommon\ArchaeologicalTools$ArchaeologicalTools2Patch.class
+REMEMod\Patches\LimitBreakerPatch$reducePostfPatch.class
 REMEMod\Powers\RevengePower.class
 REMEMod\Cards\Colorless\Skill\BodyOfCthun.class
 REMEMod\Cards\Colorless\Skill\TheoryOfElimination.class
@@ -141,6 +147,7 @@ REMEMod\Cards\Colorless\Attack\EyeOfCthun.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform$UsePotionPatch2.class
 REMEMod\Relics\Boss\LowDesire.class
 REMEMod\Screens\WantAllButton.class
+REMEMod\Patches\LimitBreakerPatch$reducePrefPatch.class
 REMEMod\Cards\Red\Skill\SingleHolding.class
 REMEMod\Patches\LimitBreakerPatch$reducePrePatch.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform$SpendMoneyPatch$Locator.class
@@ -155,6 +162,7 @@ REMEMod\Cards\Colorless\Attack\HeartOfCthun.class
 REMEMod\Cards\Colorless\Skill\PuzzleBox.class
 REMEMod\Cards\Blue\Attack\ForAll.class
 REMEMod\Relics\Shop\CardOfGreed.class
+REMEMod\Powers\LeechingPoisonPower.class
 REMEMod\Helpers\REMECardHelper.class
 REMEMod\Cards\Red\Skill\Scribble.class
 REMEMod\Cards\Red\Attack\ResidualAnger.class

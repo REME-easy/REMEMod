@@ -104,6 +104,7 @@ D:\Program Files\REMEMod\src\main\java\REMEMod\Cards\Colorless\Attack\CthunTheSh
 D:\Program Files\REMEMod\src\main\java\REMEMod\Actions\DrawPileToDiscardAction.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Cards\Blue\Power\MagicShapingShield.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Screens\VIPCardPopup.java
+D:\Program Files\REMEMod\src\main\java\REMEMod\Powers\LeechingPoisonPower.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Actions\WheelOfFateAction.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Actions\TwoStringsAction.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Helpers\SecondaryMagicVariable.java
@@ -113,6 +114,7 @@ D:\Program Files\REMEMod\src\main\java\REMEMod\Cards\Colorless\Skill\ShortnessOf
 D:\Program Files\REMEMod\src\main\java\REMEMod\Powers\AbstractREMEPower.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\REMEMod.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Cards\Colorless\Power\FirmDetermination.java
+D:\Program Files\REMEMod\src\main\java\REMEMod\Cards\Green\Skill\LeechingPoison.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Relics\Boss\DuelDisc.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Powers\BattleFuryPower.java
 D:\Program Files\REMEMod\src\main\java\REMEMod\Cards\Red\Skill\SingleHolding.java

@@ -78,5 +78,12 @@
       "Your cards rewards have #b",
       " additional cards to choose this combat."
     ]
+  },
+  "REME_LeechingPoisonPower": {
+    "NAME": "吸血药膏",
+    "DESCRIPTIONS": [
+      "Heal HP equal to unblocked damage next  #b",
+      " attack played."
+    ]
   }
 }
