@@ -1,0 +1,10 @@
+{
+  "REME_Creation": {
+    "NAME": "Creation",
+    "DESCRIPTION": [
+      " #yPassive :Channel #b",
+      " random orb. NL  #yEvoke :Gain 1 orb slot.Channel #b",
+      " random orb.(not affected by #yFocus. )"
+    ]
+  }
+}

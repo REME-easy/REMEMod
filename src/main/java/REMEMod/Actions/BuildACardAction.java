@@ -2,7 +2,7 @@ package REMEMod.Actions;
 
 import REMEMod.Cards.Colorless.Skill.BuildACard;
 import REMEMod.Cards.Colorless.Skill.SutureCard;
-import REMEMod.Helpers.REMECardHelper;
+import REMEMod.Helpers.REMEHelper;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -71,10 +71,10 @@ public class BuildACardAction extends AbstractGameAction {
                     this.p.onCardDrawOrDiscard();
                     if (c instanceof SutureCard) {
                         for(AbstractCard card:((SutureCard) c).sutureCards) {
-                            cards.add(REMECardHelper.makeStatEquivalentCopy(card));
+                            cards.add(REMEHelper.makeStatEquivalentCopy(card));
                         }
                     } else {
-                        cards.add(REMECardHelper.makeStatEquivalentCopy(c));
+                        cards.add(REMEHelper.makeStatEquivalentCopy(c));
                     }
                 }
 

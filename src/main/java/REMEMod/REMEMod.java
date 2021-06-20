@@ -5,11 +5,13 @@ import REMEMod.Cards.Blue.Attack.ForAll;
 import REMEMod.Cards.Blue.Attack.Shoggoth;
 import REMEMod.Cards.Blue.Power.SelfUpgrade;
 import REMEMod.Cards.Blue.Skill.Compress;
+import REMEMod.Cards.Blue.Skill.CreativeMind;
 import REMEMod.Cards.Blue.Skill.Whirling;
 import REMEMod.Cards.Colorless.Attack.AllRoundStrike;
 import REMEMod.Cards.Colorless.Attack.CthunTheShattered;
 import REMEMod.Cards.Colorless.Attack.EyeOfCthun;
 import REMEMod.Cards.Colorless.Attack.HeartOfCthun;
+import REMEMod.Cards.Colorless.Power.AccumulateSteadily;
 import REMEMod.Cards.Colorless.Power.BattleFury;
 import REMEMod.Cards.Colorless.Power.FirmDetermination;
 import REMEMod.Cards.Colorless.Power.Flogging;
@@ -22,19 +24,16 @@ import REMEMod.Cards.Green.Power.GreenPollution;
 import REMEMod.Cards.Green.Power.ShadowForm;
 import REMEMod.Cards.Green.Skill.CopyPotion;
 import REMEMod.Cards.Green.Skill.LeechingPoison;
+import REMEMod.Cards.Green.Skill.Seeding;
 import REMEMod.Cards.Purple.Power.MusicOfDeath;
-import REMEMod.Cards.Purple.Skill.CRH;
-import REMEMod.Cards.Purple.Skill.EmptyShield;
-import REMEMod.Cards.Purple.Skill.Repentance;
-import REMEMod.Cards.Purple.Skill.WorshipGod;
+import REMEMod.Cards.Purple.Skill.*;
+import REMEMod.Cards.Red.Attack.NightmareStrike;
 import REMEMod.Cards.Red.Attack.ResidualAnger;
 import REMEMod.Cards.Red.Attack.TheLastStrike;
 import REMEMod.Cards.Red.Power.Cut;
 import REMEMod.Cards.Red.Power.FearOfPain;
-import REMEMod.Cards.Red.Skill.ACTH;
-import REMEMod.Cards.Red.Skill.Fury;
-import REMEMod.Cards.Red.Skill.Scribble;
-import REMEMod.Cards.Red.Skill.SingleHolding;
+import REMEMod.Cards.Red.Skill.*;
+import REMEMod.Helpers.REMEHelper;
 import REMEMod.Helpers.SecondaryMagicVariable;
 import REMEMod.Monsters.Revenger;
 import REMEMod.Patches.IncrementDiscardPatch;
@@ -58,6 +57,7 @@ import basemod.helpers.RelicType;
 import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
+import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
@@ -65,15 +65,15 @@ import com.megacrit.cardcrawl.core.Settings.GameLanguage;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.monsters.MonsterInfo;
-import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 @SpireInitializer
-public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, EditCardsSubscriber, PostInitializeSubscriber, EditKeywordsSubscriber, PostDungeonInitializeSubscriber, OnStartBattleSubscriber {
+public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, EditCardsSubscriber, PostInitializeSubscriber, EditKeywordsSubscriber, OnStartBattleSubscriber {
     private static final Logger logger = LogManager.getLogger(REMEMod.class);
 
     public REMEMod() {
@@ -131,6 +131,12 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
         BaseMod.addCard(new HeartOfCthun());
         BaseMod.addCard(new BodyOfCthun());
         BaseMod.addCard(new LeechingPoison());
+        BaseMod.addCard(new CreativeMind());
+        BaseMod.addCard(new WoundSpread());
+        BaseMod.addCard(new AccumulateSteadily());
+        BaseMod.addCard(new Interweave());
+        BaseMod.addCard(new NightmareStrike());
+        BaseMod.addCard(new Seeding());
 
         BaseMod.addCard(new CurseOfMatryoshka());
         receiveEditPotions();
@@ -184,6 +190,7 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
         BaseMod.loadCustomStringsFile(PowerStrings.class, "Localization/REMEPowers_" + lang + ".json");
         BaseMod.loadCustomStringsFile(MonsterStrings.class, "Localization/REMEMonsters_" + lang + ".json");
         BaseMod.loadCustomStringsFile(UIStrings.class, "Localization/REMEUI_" + lang + ".json");
+        BaseMod.loadCustomStringsFile(OrbStrings.class, "Localization/REMEOrb_" + lang + ".json");
     }
 
     public void receiveEditKeywords() {
@@ -220,13 +227,15 @@ public class REMEMod implements EditRelicsSubscriber, EditStringsSubscriber, Edi
         BaseMod.addEliteEncounter("TheCity", new MonsterInfo("REME_1_Revenger", 1.0F));
     }
 
-    public void receivePostDungeonInitialize(){
-        if (AbstractDungeon.floorNum <= 1) {
-            AbstractPlayer p = AbstractDungeon.player;
-            AbstractRelic r = new ComplimentaryCards();
-            if (!p.hasRelic(r.relicId)) {
-                int slot = p.relics.size();
-                r.makeCopy().instantObtain();
+    @SpirePatch(
+            clz = AbstractDungeon.class,
+            method = SpirePatch.CONSTRUCTOR,
+            paramtypez = {String.class, String.class, AbstractPlayer.class, ArrayList.class}
+    )
+    public static class GameStartPatch {
+        public static void Postfix(AbstractDungeon _inst, String name, String levelId, AbstractPlayer p, ArrayList<String> newSpecialOneTimeEventList) {
+            if (AbstractDungeon.id.equals("Exordium")) {
+                REMEHelper.GainRelic(new ComplimentaryCards());
             }
         }
     }

@@ -61,43 +61,6 @@
     "NAME": "Build A Card",
     "DESCRIPTION": "Suture at most !M! cards. NL Can`t be *Build *A *Card."
   },
-  "REME_PhotographicMemory": {
-    "NAME": "过目不忘",
-    "DESCRIPTION": "打出本场战斗你打出过的其他颜色的牌的复制。 NL  保留 ， 消耗 。"
-  },
-  "REME_PlagiarizeIdeas": {
-    "NAME": "剽窃创意",
-    "DESCRIPTION": "从 !M! 张其他颜色的牌中选择并获得一张，其获得 消耗 。"
-  },
-  "REME_UnpredictableMoods": {
-    "NAME": "喜怒无常",
-    "DESCRIPTION": "进入 愤怒 。 NL 进入 平静 。 NL 退出当前 姿态 。"
-  },
-  "REME_SliferTheSkyDragon": {
-    "NAME": "欧西里斯之天空龙",
-    "DESCRIPTION": "你每有一种状态，这张牌耗能降低1。 NL 你每有一张手牌，获得1点 力量 。 NL 敌人造成的伤害降低 !M! 。"
-  },
-  "REME_ObeliskTheTormentor": {
-    "NAME": "欧贝利斯克之巨神兵",
-    "DESCRIPTION": "你每有一个充能球，这张牌耗能降低1。 NL  *右键单击 该能力 激发 2个充能球，对所有敌人打出一张 *神拳粉碎 。",
-    "UPGRADE_DESCRIPTION": "你每有一个充能球，这张牌耗能降低1。 NL  *右键单击 该能力 激发 2个充能球，对所有敌人打出一张 *神拳粉碎+ 。"
-  },
-  "REME_GodHandCrash": {
-    "NAME": "神拳粉碎",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 造成未被格挡的伤害时，给予 !M! 层 粉碎 。"
-  },
-  "REME_TheWingedDragonOfRa": {
-    "NAME": "拉之翼神龙",
-    "DESCRIPTION": "你每拥有10点格挡，这张牌耗能降低1。 NL  *右键单击 该能力将格挡变为1，对所有敌人造成等量伤害。"
-  },
-  "REME_TheWingedDragonOfRaSphereMode": {
-    "NAME": "拉之翼神龙-球体形",
-    "DESCRIPTION": "获得 *壁垒 ，无实体 ，一回合不能打出攻击牌。 NL  *右键单击 该能力失去 *壁垒 ，将 *拉之翼神龙 加入你的手牌。"
-  },
-  "REME_HolactieTheCreatorOfLight": {
-    "NAME": "光之创造神赫尔阿克帝",
-    "DESCRIPTION": "打出时，如果你拥有 *欧西里斯之天空龙 ， *欧贝利斯克之巨神兵 ， *拉之翼神龙 ，获得战斗胜利。 NL  保留 。"
-  },
   "REME_AllRoundStrike": {
     "NAME": "All Round Strike",
     "DESCRIPTION": " Innate . Ethereal . NL When played,discarded or Exhausted,deal !D! damage to a random enemy. NL There is no escape from this NL Exhaust."
@@ -106,59 +69,12 @@
     "NAME": "Puzzle Box",
     "DESCRIPTION": "Play !M! random cards. NL Exhaust."
   },
-  "REME_Juicer": {
-    "NAME": "榨汁机",
-    "DESCRIPTION": "从3张卡牌中选择，重复 !M! 次。获得选择的 缝合 卡牌。 NL  消耗 。",
-    "EXTENDED_DESCRIPTION": [
-      ""
-    ]
-  },
-  "REME_Pear": {
-    "NAME": "梨子",
-    "DESCRIPTION": "获得 !B! 点 格挡 。"
-  },
-  "REME_Mango": {
-    "NAME": "芒果",
-    "DESCRIPTION": "恢复 !M! 点生命值。"
-  },
-  "REME_DeadBranch": {
-    "NAME": "枯木树枝",
-    "DESCRIPTION": "消耗至多 !M! 张状态牌或诅咒牌。"
-  },
-  "REME_Ginger": {
-    "NAME": "生姜",
-    "DESCRIPTION": "给予 !M! 层 特殊虚弱 。"
-  },
-  "REME_IceCream": {
-    "NAME": "冰淇淋",
-    "DESCRIPTION": "获得 !M!  [E] 。"
-  },
-  "REME_Lee'sWaffle": {
-    "NAME": "李家华夫饼",
-    "DESCRIPTION": "增加 !M! 点最大生命值。"
-  },
-  "REME_MagicFlower": {
-    "NAME": "魔法花",
-    "DESCRIPTION": "抽 !M! 张牌。"
-  },
-  "REME_MeatOnTheBone": {
-    "NAME": "带骨肉",
-    "DESCRIPTION": "给予 !M! 层 特殊易伤 。"
-  },
-  "REME_Clonometer": {
-    "NAME": "克隆仪",
-    "DESCRIPTION": "选择未 消耗 的一张牌， 消耗 所有手牌并用那张牌的复制替换。 NL  消耗 。"
-  },
   "REME_GrazeFinale": {
     "NAME": "Graze Finale",
     "DESCRIPTION": "Can only be played if there are no cards in your draw pile. NL Heal !M! HP.",
     "EXTENDED_DESCRIPTION": [
       "My draw pile NL must be #rEmpty."
     ]
-  },
-  "REME_HyperMayhem": {
-    "NAME": "超级乱战",
-    "DESCRIPTION": "在每回合开始时触发一张随机牌的效果。"
   },
   "REME_ShortnessOfBreath": {
     "NAME": "Shortness Of Breath",
@@ -173,30 +89,13 @@
     "NAME": "Shoggoth",
     "DESCRIPTION": "Deal !D! damage. NL Suture this with 1 card in discard pile. NL Exhaust."
   },
-  "REME_Craving": {
-    "NAME": "梦寐以求",
-    "DESCRIPTION": " 消耗 一张手牌。将一张 *小刀 置入你的手牌。"
-  },
   "REME_TwoStrings": {
     "NAME": "Two Strings",
     "DESCRIPTION": "Copy your hand. NL Exhaust."
   },
-  "REME_TrolleyProblem": {
-    "NAME": "电车难题",
-    "DESCRIPTION": "选择 消耗 1张牌，或5张牌。",
-    "UPGRADE_DESCRIPTION": "选择 消耗 1张牌，5张牌或 *神秘选项 。"
-  },
-  "REME_CrocodileTears": {
-    "NAME": "鳄鱼的眼泪",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 只能对生命大于该伤害的敌人打出。"
-  },
   "REME_CurseOfMatryoshka": {
     "NAME": "Curse Of Matryoshka",
     "DESCRIPTION": "Unplayable. NL Ethereal.Can be Upgraded any number of times. NL Reduce 1 upgrade times instead of Exhausted."
-  },
-  "REME_Inspiration": {
-    "NAME": "灵感",
-    "DESCRIPTION": "很难被 *发现 。"
   },
   "REME_Flogging": {
     "NAME": "Flogging",
@@ -210,16 +109,6 @@
     "NAME": "Firm Determination",
     "DESCRIPTION": "If you have keys: NL *Ruby :Gain !M! Strength. NL *Emerald :Gain !M! Dexterity. NL *Sapphire :Gain !B! Block."
   },
-  "REME_Upload": {
-    "NAME": "上传至库",
-    "DESCRIPTION": "你每获得3次 *状态 ，获得 [E] 。",
-    "UPGRADE_DESCRIPTION": "你每获得3次 *状态 ，获得 [E] ，抽1张牌。"
-  },
-  "REME_AnesthesiaNeedle": {
-    "NAME": "麻醉针",
-    "DESCRIPTION": "你每打出一张牌，随机敌人获得 !M! 层 *印记 。",
-    "UPGRADE_DESCRIPTION": "你每打出一张牌，随机敌人获得 !M! 层 *印记 。 NL 你的攻击牌能触发1/10的 *印记 。"
-  },
   "REME_ACTH": {
     "NAME": "ACTH",
     "DESCRIPTION": "Add !M! *Adrenaline to your hand. NL Exhaust."
@@ -227,21 +116,6 @@
   "REME_CRH": {
     "NAME": "CRH",
     "DESCRIPTION": "Add !M! *ACTH to your hand. NL Exhaust."
-  },
-  "REME_UniverseCola": {
-    "NAME": "宇宙可乐",
-    "DESCRIPTION": "本回合不能再获得 [E] 。",
-    "EXTENDED_DESCRIPTION": [
-      " NL 获得 !M!  [E] 。 NL 获得的 [E] 提高1。"
-    ]
-  },
-  "REME_LittleDust": {
-    "NAME": "小灰尘",
-    "DESCRIPTION": "进入弃牌堆时随机将那里一张牌从战斗移除。",
-    "EXTENDED_DESCRIPTION": [
-      " NL 打出时，每有一张被移除，造成 !D! 点伤害。",
-      " NL （造成","点伤害）"
-    ]
   },
   "REME_BattleFury": {
     "NAME": "Battle Fury",
@@ -252,40 +126,9 @@
     "NAME": "Music Of Death",
     "DESCRIPTION": "When you make copies into your draw pile in your turn,make !M! extra."
   },
-  "REME_BreederBomb": {
-    "NAME": "增殖弹",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 随机从抽牌堆打出一张攻击牌。"
-  },
-  "REME_MechanicalEagle": {
-    "NAME": "机械鹰",
-    "DESCRIPTION": " 组装 。 NL 抽 !M! 张牌。"
-  },
-  "REME_MechanicalDog": {
-    "NAME": "机械犬",
-    "DESCRIPTION": " 组装 。 NL 获得 !B! 点 格挡 。随机将一张牌置入你的手中，其耗能本回合为0。"
-  },
-  "REME_MechanicalBear": {
-    "NAME": "机械熊",
-    "DESCRIPTION": " 组装 。 NL 抽 !M! 张技能牌，其耗能本回合为0。"
-  },
-  "REME_AssemblyStation": {
-    "NAME": "组装站",
-    "DESCRIPTION": " 组装 。 NL 随机获得 !M! 张 组装 牌。"
-  },
-  "REME_MechanicalRabbit": {
-    "NAME": "机械兔",
-    "DESCRIPTION": " 组装 。 NL 造成 !D! 点伤害。每有一张未消耗的 组装 牌伤害+ !M! 。",
-    "EXTENDED_DESCRIPTION": [
-      " NL （造成","点伤害）"
-    ]
-  },
   "REME_Repentance": {
     "NAME": "Repentance",
     "DESCRIPTION": "At the end of each your turn,deal !M! damage to ALL enemies."
-  },
-  "REME_MagicShapingShield": {
-    "NAME": "法术塑盾",
-    "DESCRIPTION": "每当你打出一张牌，获得等同于其耗能的 格挡 。"
   },
   "REME_Whirling": {
     "NAME": "Whirling",
@@ -304,17 +147,9 @@
     "NAME": "Fury",
     "DESCRIPTION": "Shuffle !RSM2! *Residual *Anger into your draw pile.Increase the number by !M!  NL Exhaust."
   },
-  "REME_ThousandsShivs": {
-    "NAME": "刀海战术",
-    "DESCRIPTION": "将 !M! 张 *小刀 洗入抽牌堆。 NL 之后 !M! 次打出0耗能卡牌时抽1张牌。"
-  },
   "REME_Compress": {
     "NAME": "Compress",
     "DESCRIPTION": "Draw !M! cards. NL Discard all cards drawn that cost 0,gain [E] for each."
-  },
-  "REME_KillingWithKindness": {
-    "NAME": "以柔克刚",
-    "DESCRIPTION": "你下一次造成攻击伤害时，获得等量的 格挡 。 NL  消耗 。"
   },
   "REME_TheoryOfElimination": {
     "NAME": "Theory Of Elimination",
@@ -370,5 +205,38 @@
   "REME_LeechingPoison": {
     "NAME": "Leeching Poison",
     "DESCRIPTION": "Heal HP equal to unblocked damage next attack card played. NL Exhaust."
+  },
+  "REME_CreativeMind": {
+    "NAME": "Creative Mind",
+    "DESCRIPTION": "Channel one Creation orb. NL draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Channel one Creation orb. NL draw !M! cards."
+  },
+  "REME_WoundSpread": {
+    "NAME": "Wound Spread",
+    "DESCRIPTION": "Apply !M! Vulnerable . NL Vulnerable of target is divided into two parts and calculated separately."
+  },
+  "REME_AccumulateSteadily": {
+    "NAME": "Accumulate Steadily",
+    "DESCRIPTION": "Gain !M! Strength. NL Strength gained is increased by 1 permanently."
+  },
+  "REME_Interweave": {
+    "NAME": "Interweave",
+    "DESCRIPTION": "Shuffle !M! *Light and *Dark into your draw pile."
+  },
+  "REME_NightmareStrike": {
+    "NAME": "Nightmare Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle !M! *Dark into your draw pile."
+  },
+  "REME_Seeding": {
+    "NAME": "Seeding",
+    "DESCRIPTION": "Shuffle !M! *Dark into your draw pile. NL Draw 1 card."
+  },
+  "REME_Light": {
+    "NAME": "Light",
+    "DESCRIPTION": "When drawn,draw 1 card,play this and Exhaust this. NL Gain !B! Block. NL Exhaust."
+  },
+  "REME_Dark": {
+    "NAME": "Dark",
+    "DESCRIPTION": "When drawn,draw 1 card,play this and Exhaust this. NL Deal !D! damage. NL Exhaust."
   }
 }

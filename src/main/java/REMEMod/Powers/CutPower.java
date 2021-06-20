@@ -52,29 +52,29 @@ public class CutPower extends AbstractPower {
     @Override
     public void onUseCard(AbstractCard card, UseCardAction action) {
         super.onUseCard(card, action);
-/*        if (card.type == AbstractCard.CardType.ATTACK) {
-            amount3++;
-            this.updateDescription();
-            if(amount3 == 2){
-                boolean anim = true;
-                for(AbstractGameEffect age:AbstractDungeon.effectList){
-                    if(age instanceof InflameEffect){
-                        anim = false;
-                        break;
-                    }
-                }
-                if (anim)
-                    this.addToBot(new VFXAction(AbstractDungeon.player, new InflameEffect(AbstractDungeon.player), 0.1F));
-                this.flashWithoutSound();
-            }
-            if(amount3 == 3){
-                amount3 = 0;
-                if(action.target != null && action.target.isDead && !action.target.isDeadOrEscaped())
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new GoldenSlashEffect(action.target.hb.cX, action.target.hb.cY, true), 0.1F));
-                this.flash();
-
-            }
-        }*/
+//        if (card.type == AbstractCard.CardType.ATTACK) {
+//            amount3++;
+//            this.updateDescription();
+//            if (amount3 == 2) {
+//                boolean anim = true;
+//                for (AbstractGameEffect age : AbstractDungeon.effectList) {
+//                    if (age instanceof InflameEffect) {
+//                        anim = false;
+//                        break;
+//                    }
+//                }
+//                if (anim)
+//                    this.addToBot(new VFXAction(AbstractDungeon.player, new InflameEffect(AbstractDungeon.player), 0.1F));
+//                this.flashWithoutSound();
+//            }
+//            if (amount3 == 3) {
+//                amount3 = 0;
+//                if (action.target != null && action.target.isDead && !action.target.isDeadOrEscaped())
+//                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new GoldenSlashEffect(action.target.hb.cX, action.target.hb.cY, true), 0.1F));
+//                this.flash();
+//
+//            }
+//        }
         if (card.type == AbstractCard.CardType.ATTACK) {
             this.addToBot(new CutPowerAction(this, action));
         }

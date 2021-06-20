@@ -26,6 +26,7 @@ public class SpectralBlade extends CustomCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
+        //AbstractDungeon.effectList.add(new SpectralBladeEffect(m.drawX, m.drawY));
         this.addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
         CardCrawlGame.sound.play("NECRONOMICON");
     }

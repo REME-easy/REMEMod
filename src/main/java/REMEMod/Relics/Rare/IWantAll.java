@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class IWantAll extends CustomRelic {
     private static String ID = "REME_IWantAll";
-    private static WantAllButton wantAllButton;
+    private static WantAllButton wantAllButton = new WantAllButton();
 
     public IWantAll() {
         super(ID, ImageMaster.loadImage("remeImg/relics/IWantAll.png"),

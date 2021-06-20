@@ -1,6 +1,6 @@
 package REMEMod.Actions;
 
-import REMEMod.Helpers.REMECardHelper;
+import REMEMod.Helpers.REMEHelper;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -63,7 +63,7 @@ public class ShoggothAction extends AbstractGameAction {
                     cards1.add(c1.makeStatEquivalentCopy());
                 }
                 if(cards1.size() > 0)
-                    this.addToBot(new MakeTempCardInHandAction(REMECardHelper.makeSutureCard(cards1)));
+                    this.addToBot(new MakeTempCardInHandAction(REMEHelper.makeSutureCard(cards1)));
                 AbstractDungeon.closeCurrentScreen();
                 AbstractDungeon.gridSelectScreen.selectedCards.clear();
                 this.isDone = true;

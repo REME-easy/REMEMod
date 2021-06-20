@@ -1,6 +1,5 @@
 package REMEMod.Potions;
 
-import com.megacrit.cardcrawl.actions.common.GainGoldAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -36,7 +35,7 @@ public class GoldPotion extends AbstractREMEPotion {
     }
 
     public void use(AbstractCreature target) {
-        this.addToBot(new GainGoldAction(this.potency));
+        AbstractDungeon.player.gainGold(this.getPotency());
     }
 
     public AbstractPotion makeCopy() {

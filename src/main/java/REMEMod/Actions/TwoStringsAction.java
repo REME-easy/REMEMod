@@ -1,6 +1,6 @@
 package REMEMod.Actions;
 
-import REMEMod.Helpers.REMECardHelper;
+import REMEMod.Helpers.REMEHelper;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -22,7 +22,7 @@ public class TwoStringsAction extends AbstractGameAction {
         } else {
             if (this.duration == DEFAULT_DURATION) {
                 for(AbstractCard c:AbstractDungeon.player.hand.group){
-                    this.addToBot(new MakeTempCardInHandAction(REMECardHelper.makeStatEquivalentCopy(c)));
+                    this.addToBot(new MakeTempCardInHandAction(REMEHelper.makeStatEquivalentCopy(c)));
 
                 }
             }

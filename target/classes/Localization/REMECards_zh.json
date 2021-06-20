@@ -61,18 +61,6 @@
     "NAME": "创造卡牌",
     "DESCRIPTION": "将你手牌至多 !M! 张 缝合 。 NL 不能是 *创造卡牌 。"
   },
-  "REME_PhotographicMemory": {
-    "NAME": "过目不忘",
-    "DESCRIPTION": "打出本场战斗你打出过的其他颜色的牌的复制。 NL  保留 ， 消耗 。"
-  },
-  "REME_PlagiarizeIdeas": {
-    "NAME": "剽窃创意",
-    "DESCRIPTION": "从 !M! 张其他颜色的牌中选择并获得一张，其获得 消耗 。"
-  },
-  "REME_UnpredictableMoods": {
-    "NAME": "喜怒无常",
-    "DESCRIPTION": "进入 愤怒 。 NL 进入 平静 。 NL 退出当前 姿态 。"
-  },
   "REME_AllRoundStrike": {
     "NAME": "全能打击",
     "DESCRIPTION": " 固有 。 虚无 。 NL 这张牌被打出，丢弃或 消耗 时，对随机敌人造成 !D! 点伤害。 NL 这张牌无法逃脱。 NL  消耗 。"
@@ -105,22 +93,9 @@
     "NAME": "修格斯",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 与弃牌堆一张 缝合 。 消耗 。"
   },
-  "REME_Craving": {
-    "NAME": "梦寐以求",
-    "DESCRIPTION": " 消耗 一张手牌。将一张 *小刀 置入你的手牌。"
-  },
   "REME_TwoStrings": {
     "NAME": "两手准备",
     "DESCRIPTION": "复制你的手牌。 NL  消耗 。"
-  },
-  "REME_TrolleyProblem": {
-    "NAME": "电车难题",
-    "DESCRIPTION": "选择 消耗 1张牌，或5张牌。",
-    "UPGRADE_DESCRIPTION": "选择 消耗 1张牌，5张牌或 *神秘选项 。"
-  },
-  "REME_CrocodileTears": {
-    "NAME": "鳄鱼的眼泪",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 只能对生命大于该伤害的敌人打出。"
   },
   "REME_CurseOfMatryoshka": {
     "NAME": "套娃诅咒",
@@ -142,11 +117,6 @@
     "NAME": "决心坚毅",
     "DESCRIPTION": "如果你有 *宝石钥匙 ： NL  *红 ：获得 !M! 点 力量 。 NL  *绿 ：获得 !M! 点 敏捷 。 NL  *蓝 ：获得 !B! 点 格挡 。"
   },
-  "REME_Upload": {
-    "NAME": "上传至库",
-    "DESCRIPTION": "你每获得3次 *状态 ，获得 [E] 。",
-    "UPGRADE_DESCRIPTION": "你每获得3次 *状态 ，获得 [E] ，抽1张牌。"
-  },
   "REME_AnesthesiaNeedle": {
     "NAME": "麻醉针",
     "DESCRIPTION": "你每打出一张牌，随机敌人获得 !M! 层 *印记 。",
@@ -159,22 +129,6 @@
   "REME_CRH": {
     "NAME": "促肾上腺皮质激素释放激素",
     "DESCRIPTION": "将 !M! 张 *促肾上腺皮质激素 置入手牌。 NL  消耗 。"
-  },
-  "REME_UniverseCola": {
-    "NAME": "宇宙可乐",
-    "DESCRIPTION": "本回合不能再获得 [E] 。",
-    "EXTENDED_DESCRIPTION": [
-      " NL 获得 !M!  [E] 。 NL 获得的 [E] 提高1。"
-    ]
-  },
-  "REME_LittleDust": {
-    "NAME": "小灰尘",
-    "DESCRIPTION": "进入弃牌堆时随机将那里一张牌从战斗移除。",
-    "EXTENDED_DESCRIPTION": [
-      " NL 打出时，每有一张被移除，造成 !D! 点伤害。",
-      " NL （造成",
-      "点伤害）"
-    ]
   },
   "REME_BattleFury": {
     "NAME": "狂战斧",
@@ -237,6 +191,7 @@
   "REME_EmptyShield": {
     "NAME": "化空为盾",
     "DESCRIPTION": "你每少一张手牌，就获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 你每少一张手牌，就获得 !M! 点 格挡 。",
     "EXTENDED_DESCRIPTION": [
       " NL （获得 !B! 点 格挡 ）"
     ]
@@ -248,10 +203,6 @@
   "REME_SelfUpgrade": {
     "NAME": "自我升级",
     "DESCRIPTION": "战斗奖励中增加 !M! 张牌。"
-  },
-  "REME_shoujiao": {
-    "NAME": "收缴",
-    "DESCRIPTION": "将抽牌堆顶端 !M! 张牌（不足会从弃牌堆中选取） *收入囊中 。"
   },
   "REME_WheelOfFate": {
     "NAME": "命运之轮",
@@ -288,5 +239,38 @@
   "REME_LeechingPoison": {
     "NAME": "吸血药膏",
     "DESCRIPTION": "你打出的下一张攻击牌造成伤害时，回复等量生命。 NL  消耗 。"
+  },
+  "REME_CreativeMind": {
+    "NAME": "创造性思维",
+    "DESCRIPTION": " 生成一个 创造 充能球。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": " 生成一个 创造 充能球。 NL 抽 !M! 张牌。"
+  },
+  "REME_WoundSpread": {
+    "NAME": "伤处扩散",
+    "DESCRIPTION": "给予 !M! 层 易伤 。 NL 将目标的 易伤 分出一半分开计算。"
+  },
+  "REME_AccumulateSteadily": {
+    "NAME": "厚积薄发",
+    "DESCRIPTION": "获得 !M! 点 力量 。这张牌获得的 力量 在本局游戏永久提高1点。"
+  },
+  "REME_Interweave": {
+    "NAME": "交织",
+    "DESCRIPTION": "将 !M! 张 *光 和 *暗 洗入你的抽牌堆。"
+  },
+  "REME_NightmareStrike": {
+    "NAME": "噩梦打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *暗 洗入你的抽牌堆。"
+  },
+  "REME_Seeding": {
+    "NAME": "播撒",
+    "DESCRIPTION": "将 !M! 张 *光 洗入你的抽牌堆。 NL 抽一张牌。"
+  },
+  "REME_Light": {
+    "NAME": "光",
+    "DESCRIPTION": "抽到时打出并 消耗 且抽一张牌。 NL 获得 !B! 点 格挡 。 NL  消耗 。"
+  },
+  "REME_Dark": {
+    "NAME": "暗",
+    "DESCRIPTION": "抽到时打出并 消耗 且抽一张牌。 NL 造成 !D! 点伤害。 NL  消耗 。"
   }
 }

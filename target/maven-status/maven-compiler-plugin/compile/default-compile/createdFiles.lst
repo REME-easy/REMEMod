@@ -1,7 +1,11 @@
 REMEMod\Patches\LimitBreakerPatch$stackPrefPatch.class
+REMEMod\vfx\CreativeNumberEffect.class
 REMEMod\Cards\Green\Power\GreenPollution.class
+REMEMod\Actions\DarkAction.class
+REMEMod\REMEMod$GameStartPatch.class
 REMEMod\Cards\Colorless\Power\BattleFury.class
 REMEMod\Cards\Colorless\Skill\TwoStrings.class
+REMEMod\Cards\Red\Skill\WoundSpread.class
 REMEMod\Cards\Colorless\Skill\ProfessionalPlagiarism.class
 REMEMod\Cards\Blue\Attack\Shoggoth.class
 REMEMod\Patches\LimitBreakerPatch$blockPrePatch.class
@@ -13,6 +17,7 @@ REMEMod\Relics\Shop\OnlineShoppingPlatform$OpenPotionPopUpPatch.class
 REMEMod\Actions\IncreaseMiscFuryAction.class
 REMEMod\Powers\FloggingPower.class
 REMEMod\Cards\Colorless\Skill\MagicPocketWatch.class
+REMEMod\Orbs\CreativeOrb.class
 REMEMod\Patches\ShopPatch$PurgePatch.class
 REMEMod\Patches\LimitBreakerPatch.class
 REMEMod\Patches\LimitBreakerPatch$reducePostPatch.class
@@ -26,6 +31,7 @@ REMEMod\Actions\PlayCardsAction$1.class
 REMEMod\Cards\Blue\Attack\DataAnalysis.class
 REMEMod\Patches\LimitBreakerPatch$stackPostPatch.class
 REMEMod\Patches\SoundMasterplayAPatch.class
+REMEMod\Cards\Purple\Skill\Interweave.class
 REMEMod\Powers\ExtraTimePower.class
 REMEMod\Cards\Green\Attack\ShadowStrike.class
 REMEMod\Powers\FearOfPainPower.class
@@ -42,11 +48,13 @@ REMEMod\Relics\Uncommon\ArchaeologicalTools$ArchaeologicalToolsPatch.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform$SpendMoneyPatch2.class
 REMEMod\Patches\ShopPatch.class
 REMEMod\Relics\VIPCard.class
+REMEMod\Cards\Red\Skill\WoundSpread$WoundSpreadPatch.class
 REMEMod\Powers\BattleFuryPower.class
 REMEMod\Actions\FloggingAction.class
 REMEMod\Cards\Colorless\Attack\AllRoundStrike.class
 REMEMod\Cards\Colorless\Power\Flogging.class
 REMEMod\vfx\FloggingFireBallEffect.class
+REMEMod\Helpers\REMEHelper.class
 REMEMod\Cards\Green\Power\ShadowForm.class
 REMEMod\Patches\LimitBreakerPatch$reducePostdPatch.class
 REMEMod\Actions\PuzzleBoxAction.class
@@ -80,7 +88,10 @@ REMEMod\Relics\Uncommon\HourglassOfDeath.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform$SpendMoneyPatch2$Locator.class
 REMEMod\Actions\WheelOfFateAction.class
+REMEMod\Cards\Red\Skill\WoundSpread$1.class
 REMEMod\vfx\ShadowBurstParticleEffect.class
+REMEMod\Cards\Colorless\Skill\Dark.class
+REMEMod\Cards\Green\Skill\Seeding.class
 REMEMod\vfx\CthunAreaEffect.class
 REMEMod\Actions\MakeTempCardInHandSAction.class
 REMEMod\vfx\ExpungeVFXAction.class
@@ -88,6 +99,7 @@ REMEMod\Patches\LimitBreakerPatch$stackPrePatch.class
 REMEMod\Cards\Purple\Skill\EmptyShield.class
 REMEMod\Actions\CutPowerAction.class
 REMEMod\Relics\Boss\DemonsWealth.class
+REMEMod\Cards\Colorless\Skill\Light.class
 REMEMod\Patches\LimitBreakerPatch$setSlotPatch.class
 REMEMod\Actions\TwoStringsAction.class
 REMEMod\Cards\Green\Attack\SpectralBlade.class
@@ -117,6 +129,7 @@ REMEMod\Patches\LimitBreakerPatch$stackPredPatch.class
 REMEMod\Powers\RepentancePower.class
 REMEMod\Actions\SingleHoldingAction.class
 REMEMod\Screens\VIPCardPopup.class
+REMEMod\Cards\Blue\Skill\CreativeMind.class
 REMEMod\Relics\Uncommon\ArchaeologicalTools$ArchaeologicalTools2Patch.class
 REMEMod\Patches\LimitBreakerPatch$reducePostfPatch.class
 REMEMod\Powers\RevengePower.class
@@ -130,6 +143,7 @@ REMEMod\Actions\WhirlingAction.class
 REMEMod\Actions\ShoggothAction.class
 REMEMod\Patches\IncrementDiscardPatch$DiscardPatch.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform$SpendMoneyPatch.class
+REMEMod\Cards\Red\Attack\NightmareStrike.class
 REMEMod\Powers\UploadPower.class
 REMEMod\Cards\Blue\Power\Upload.class
 REMEMod\Cards\Purple\Skill\WorshipGod.class
@@ -163,6 +177,6 @@ REMEMod\Cards\Colorless\Skill\PuzzleBox.class
 REMEMod\Cards\Blue\Attack\ForAll.class
 REMEMod\Relics\Shop\CardOfGreed.class
 REMEMod\Powers\LeechingPoisonPower.class
-REMEMod\Helpers\REMECardHelper.class
+REMEMod\Cards\Colorless\Power\AccumulateSteadily.class
 REMEMod\Cards\Red\Skill\Scribble.class
 REMEMod\Cards\Red\Attack\ResidualAnger.class

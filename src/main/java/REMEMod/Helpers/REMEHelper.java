@@ -1,14 +1,26 @@
 package REMEMod.Helpers;
 
 import REMEMod.Cards.Colorless.Skill.SutureCard;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 import java.util.ArrayList;
 
-public class REMECardHelper {
-    public REMECardHelper() {
+public class REMEHelper {
+    public REMEHelper() {
+    }
+
+    public static void addToBot(AbstractGameAction action) {
+        AbstractDungeon.actionManager.addToBottom(action);
+    }
+
+    public static void GainRelic(AbstractRelic r) {
+        AbstractDungeon.player.relics.add(r);
+        r.onEquip();
+        AbstractDungeon.player.reorganizeRelics();
     }
 
     public static AbstractCard makeStatEquivalentCopy(AbstractCard c) {

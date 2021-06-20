@@ -33,7 +33,7 @@ public class BattleFuryPower extends AbstractPower {
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
         for(int i = amount ; i > 0 ; i--)
-            if (!(card.isEthereal && card.exhaust) && !AbstractDungeon.actionManager.turnHasEnded && card.tags.contains(AbstractCard.CardTags.STARTER_STRIKE)) {
+            if (!(card.isEthereal || card.exhaust || card.glowColor == Color.GREEN) && !AbstractDungeon.actionManager.turnHasEnded && card.tags.contains(AbstractCard.CardTags.STARTER_STRIKE)) {
                 this.flash();
                 this.updateDescription();
                 AbstractCard c = card.makeStatEquivalentCopy();
