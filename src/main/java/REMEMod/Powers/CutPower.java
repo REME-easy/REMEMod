@@ -53,9 +53,9 @@ public class CutPower extends AbstractPower {
     public void onUseCard(AbstractCard card, UseCardAction action) {
         super.onUseCard(card, action);
 //        if (card.type == AbstractCard.CardType.ATTACK) {
-//            amount3++;
+//            curAmt++;
 //            this.updateDescription();
-//            if (amount3 == 2) {
+//            if (curAmt == 2) {
 //                boolean anim = true;
 //                for (AbstractGameEffect age : AbstractDungeon.effectList) {
 //                    if (age instanceof InflameEffect) {
@@ -67,8 +67,8 @@ public class CutPower extends AbstractPower {
 //                    this.addToBot(new VFXAction(AbstractDungeon.player, new InflameEffect(AbstractDungeon.player), 0.1F));
 //                this.flashWithoutSound();
 //            }
-//            if (amount3 == 3) {
-//                amount3 = 0;
+//            if (curAmt == 3) {
+//                curAmt = 0;
 //                if (action.target != null && action.target.isDead && !action.target.isDeadOrEscaped())
 //                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new GoldenSlashEffect(action.target.hb.cX, action.target.hb.cY, true), 0.1F));
 //                this.flash();

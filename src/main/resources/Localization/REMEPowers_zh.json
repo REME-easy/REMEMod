@@ -85,5 +85,28 @@
       "你下 #b",
       " 张攻击牌造成伤害时，回复等量生命。"
     ]
+  },
+  "REME_MagicShapingShieldPower": {
+    "NAME": "法术塑盾",
+    "DESCRIPTIONS": [
+      "你每造成 #b",
+      " 点伤害就获得 #b",
+      "  #y格挡 。 NL 你已造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "REME_ColdReleasePower": {
+    "NAME": "冷气释放",
+    "DESCRIPTIONS": [
+      "每当你受到未被格挡的伤害，生成 #b",
+      " 个 #y冰霜 充能球。"
+    ]
+  },
+  "REME_UnstoppablePower": {
+    "NAME": "无可阻挡",
+    "DESCRIPTIONS": [
+      "每个回合开始时，获得 #b",
+      " 层 #y金属化 。"
+    ]
   }
 }

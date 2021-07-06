@@ -11,7 +11,6 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.AbstractPower.PowerType;
 
 public class FearOfPainPower extends AbstractPower {
     private static final String POWER_ID = "REME_FearOfPainPower";
@@ -25,7 +24,7 @@ public class FearOfPainPower extends AbstractPower {
         this.owner = owner;
         this.amount = Amount;
         this.type = PowerType.BUFF;
-        String path128 = "remeImg/powers/pmmod.png";
+        String path128 = "remeImg/powers/pmmod84.png";
         String path48 = "remeImg/powers/pmmod.png";
         this.region128 = new AtlasRegion(ImageMaster.loadImage(path128), 0, 0, 84, 84);
         this.region48 = new AtlasRegion(ImageMaster.loadImage(path48), 0, 0, 32, 32);

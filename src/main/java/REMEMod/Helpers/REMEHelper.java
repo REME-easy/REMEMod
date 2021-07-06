@@ -6,12 +6,16 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
 public class REMEHelper {
     public REMEHelper() {
     }
+
+    private static final Logger logger = LogManager.getLogger(REMEHelper.class);
 
     public static void addToBot(AbstractGameAction action) {
         AbstractDungeon.actionManager.addToBottom(action);
@@ -21,6 +25,10 @@ public class REMEHelper {
         AbstractDungeon.player.relics.add(r);
         r.onEquip();
         AbstractDungeon.player.reorganizeRelics();
+    }
+
+    public static void info(String s) {
+        logger.info(s);
     }
 
     public static AbstractCard makeStatEquivalentCopy(AbstractCard c) {

@@ -18,6 +18,7 @@ import static com.megacrit.cardcrawl.dungeons.AbstractDungeon.gridSelectScreen;
 public class ComplimentaryCards extends CustomRelic {
     private boolean RclickStart = false;
     private boolean Rclick = false;
+    private boolean used = false;
     private CardGroup tmp = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
 
     public ComplimentaryCards() {
@@ -68,26 +69,30 @@ public class ComplimentaryCards extends CustomRelic {
 
     public void update() {
         super.update();
-        if (this.RclickStart && InputHelper.justReleasedClickRight) {
-            if (this.hb.hovered) {
-                this.Rclick = true;
+        if (!used) {
+            if (this.RclickStart && InputHelper.justReleasedClickRight) {
+                if (this.hb.hovered) {
+                    this.Rclick = true;
+                }
+                this.RclickStart = false;
             }
-            this.RclickStart = false;
+            if (this.isObtained && this.hb != null && this.hb.hovered && InputHelper.justClickedRight) {
+                this.RclickStart = true;
+            }
+            if (this.Rclick) {
+                this.Rclick = false;
+                this.used = true;
+                this.onRightClick();
+            }
         }
-        if (this.isObtained && this.hb != null && this.hb.hovered && InputHelper.justClickedRight) {
-            this.RclickStart = true;
+        if (!AbstractDungeon.isScreenUp && AbstractDungeon.gridSelectScreen.selectedCards.isEmpty()) {
+            this.tmp.clear();
         }
-        if (this.Rclick) {
-            this.Rclick = false;
-            this.onRightClick();
-        }
-        if (this.counter == -1 && tmp.group != null && !AbstractDungeon.isScreenUp && !AbstractDungeon.gridSelectScreen.selectedCards.isEmpty()) {
+        if (this.counter == -1 && !tmp.group.isEmpty() && !AbstractDungeon.isScreenUp && !AbstractDungeon.gridSelectScreen.selectedCards.isEmpty()) {
             this.counter = -2;
 
             AbstractDungeon.effectList.add(new ShowCardAndObtainEffect(gridSelectScreen.selectedCards.get(0), (float) Settings.WIDTH / 2.0F, (float)Settings.HEIGHT / 2.0F));
-
             this.tmp.clear();
-
             AbstractDungeon.gridSelectScreen.selectedCards.clear();
         }
     }

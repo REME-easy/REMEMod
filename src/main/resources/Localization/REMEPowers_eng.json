@@ -80,10 +80,33 @@
     ]
   },
   "REME_LeechingPoisonPower": {
-    "NAME": "吸血药膏",
+    "NAME": "Leeching Poison",
     "DESCRIPTIONS": [
       "Heal HP equal to unblocked damage next  #b",
       " attack played."
+    ]
+  },
+  "REME_MagicShapingShieldPower": {
+    "NAME": "Magic Shaping Shield",
+    "DESCRIPTIONS": [
+      "When you deal #b",
+      " damage,gain #b",
+      "  #yBlock. NL You have dealt #b",
+      " damage."
+    ]
+  },
+  "REME_ColdReleasePower": {
+    "NAME": "Cold Release",
+    "DESCRIPTIONS": [
+      "Whenever you receive unblocked attack damage, Channel #b",
+      " 个 #Frost orb."
+    ]
+  },
+  "REME_UnstoppablePower": {
+    "NAME": "无可阻挡",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #yMetallicize ."
     ]
   }
 }

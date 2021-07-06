@@ -233,10 +233,24 @@
   },
   "REME_Light": {
     "NAME": "Light",
-    "DESCRIPTION": "When drawn,draw 1 card,play this and Exhaust this. NL Gain !B! Block. NL Exhaust."
+    "DESCRIPTION": "When drawn,draw 1 card,play and Exhaust this. NL Gain !B! Block. NL Exhaust."
   },
   "REME_Dark": {
     "NAME": "Dark",
-    "DESCRIPTION": "When drawn,draw 1 card,play this and Exhaust this. NL Deal !D! damage. NL Exhaust."
+    "DESCRIPTION": "When drawn,draw 1 card,play and Exhaust this. NL Deal !D! damage. NL Exhaust."
+  },
+  "REME_ColdRelease": {
+    "NAME": "Cold Release",
+    "DESCRIPTION": "Whenever you receive unblocked attack damage, Channel !M! Frost.",
+    "UPGRADE_DESCRIPTION": "Whenever you receive unblocked attack damage, Channel !M! Frost."
+  },
+  "REME_Unstoppable": {
+    "NAME": "Unstoppable",
+    "DESCRIPTION": "At the start of your turn, gain !M! Metallicize.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, gain !M! Metallicize."
+  },
+  "REME_MagicShapingShield": {
+    "NAME": "MagicShapingShield",
+    "DESCRIPTION": "When you deal !RSM2! damage,gain !M! Block."
   }
 }

@@ -145,7 +145,7 @@
   },
   "REME_MagicShapingShield": {
     "NAME": "法术塑盾",
-    "DESCRIPTION": "每当你打出一张牌，获得等同于其耗能的 格挡 。"
+    "DESCRIPTION": "每当你造成 !RSM2! 点伤害，获得 !M! 点 格挡 。"
   },
   "REME_Whirling": {
     "NAME": "扑朔迷离",
@@ -272,5 +272,15 @@
   "REME_Dark": {
     "NAME": "暗",
     "DESCRIPTION": "抽到时打出并 消耗 且抽一张牌。 NL 造成 !D! 点伤害。 NL  消耗 。"
+  },
+  "REME_ColdRelease": {
+    "NAME": "冷气释放",
+    "DESCRIPTION": "每当你受到未被格挡的攻击伤害时， 生成 !M! 个 冰霜 充能球。",
+    "UPGRADE_DESCRIPTION": "每当你受到未被格挡的攻击伤害时， 生成 !M! 个 冰霜 充能球。"
+  },
+  "REME_Unstoppable": {
+    "NAME": "无可阻挡",
+    "DESCRIPTION": "每回合开始时，获得 !M! 层 *金属化 。",
+    "UPGRADE_DESCRIPTION": "每回合开始时，获得 !M! 层 *金属化 。"
   }
 }

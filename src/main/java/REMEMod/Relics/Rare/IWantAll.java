@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.rewards.RewardItem;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.screens.CardRewardScreen;
 import com.megacrit.cardcrawl.ui.buttons.PeekButton;
 
@@ -39,7 +40,7 @@ public class IWantAll extends CustomRelic {
         public WantAllOpenPatch(){}
 
         public static void Prefix(CardRewardScreen _inst, ArrayList<AbstractCard> cards, RewardItem rItem, String header){
-            if(AbstractDungeon.player.hasRelic(ID)){
+            if(AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMPLETE && AbstractDungeon.player.hasRelic(ID)){
                 wantAllButton = new WantAllButton();
                 IWantAll.wantAllButton.show(rItem);
             }

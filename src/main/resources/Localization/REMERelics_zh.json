@@ -32,7 +32,7 @@
     "NAME": "奇点",
     "FLAVOR": "无限小且不实际存在的“点”",
     "DESCRIPTIONS": [
-      "造成的所有伤害提高1点。"
+      "在 #y战斗 中，每当你使用一瓶药水，触发你之前使用过的所有药水的效果。"
     ]
   },
   "REME_ComplimentaryCards": {
@@ -107,7 +107,7 @@
     "NAME": "暴食之牌",
     "FLAVOR": "暴食",
     "DESCRIPTIONS": [
-      "你抽牌时 #y额外 抽一张。"
+      " 斩杀 的攻击牌在战斗开始时伤害提高 #b2 点。（可叠加）"
     ]
   },
   "REME_HourglassOfDeath": {
@@ -202,6 +202,27 @@
     "FLAVOR": "我这把可是沾满剧毒的匕首（舔）",
     "DESCRIPTIONS": [
       "每回合开始时获得 [E] 。所有敌人最大生命值提高 #b10% 。"
+    ]
+  },
+  "REME_WhiteStar": {
+    "NAME": "白星",
+    "FLAVOR": "“光与暗的交织”遗物上雕刻着这样的话。",
+    "DESCRIPTIONS": [
+      "每 #b5 场战斗额外掉落一个遗物。 NL 如果你拥有 #y黑星 ，改为额外掉落 #b2 个。"
+    ]
+  },
+  "REME_BottledBoat": {
+    "NAME": "瓶装船",
+    "FLAVOR": "“它在瓶中行驶，你在瓶外看它。”——建筑师",
+    "DESCRIPTIONS": [
+      "拾取时选择一张 #y能力 牌。每场战斗开始时，将它的类型变为 #y技能 牌。"
+    ]
+  },
+  "REME_LightSword": {
+    "NAME": "辉光之剑",
+    "FLAVOR": "仅此一刻的光芒，也能斩杀混沌。",
+    "DESCRIPTIONS": [
+      "每场战斗的第一个回合造成的伤害 #b翻倍 。"
     ]
   }
 }

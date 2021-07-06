@@ -3,6 +3,7 @@ REMEMod\vfx\CreativeNumberEffect.class
 REMEMod\Cards\Green\Power\GreenPollution.class
 REMEMod\Actions\DarkAction.class
 REMEMod\REMEMod$GameStartPatch.class
+REMEMod\Patches\BottledRelicPatch.class
 REMEMod\Cards\Colorless\Power\BattleFury.class
 REMEMod\Cards\Colorless\Skill\TwoStrings.class
 REMEMod\Cards\Red\Skill\WoundSpread.class
@@ -17,8 +18,10 @@ REMEMod\Relics\Shop\OnlineShoppingPlatform$OpenPotionPopUpPatch.class
 REMEMod\Actions\IncreaseMiscFuryAction.class
 REMEMod\Powers\FloggingPower.class
 REMEMod\Cards\Colorless\Skill\MagicPocketWatch.class
+REMEMod\Relics\Boss\WhiteStar.class
 REMEMod\Orbs\CreativeOrb.class
 REMEMod\Patches\ShopPatch$PurgePatch.class
+REMEMod\Powers\MagicShapingShieldPower$1.class
 REMEMod\Patches\LimitBreakerPatch.class
 REMEMod\Patches\LimitBreakerPatch$reducePostPatch.class
 REMEMod\Powers\AbstractREMEPower$CardRewardsPatch.class
@@ -34,6 +37,7 @@ REMEMod\Patches\SoundMasterplayAPatch.class
 REMEMod\Cards\Purple\Skill\Interweave.class
 REMEMod\Powers\ExtraTimePower.class
 REMEMod\Cards\Green\Attack\ShadowStrike.class
+REMEMod\Powers\UnstoppablePower.class
 REMEMod\Powers\FearOfPainPower.class
 REMEMod\Potions\AbstractREMEPotion.class
 REMEMod\Cards\Green\Attack\GrazeFinale.class
@@ -50,6 +54,7 @@ REMEMod\Patches\ShopPatch.class
 REMEMod\Relics\VIPCard.class
 REMEMod\Cards\Red\Skill\WoundSpread$WoundSpreadPatch.class
 REMEMod\Powers\BattleFuryPower.class
+REMEMod\Cards\Blue\Power\ColdRelease.class
 REMEMod\Actions\FloggingAction.class
 REMEMod\Cards\Colorless\Attack\AllRoundStrike.class
 REMEMod\Cards\Colorless\Power\Flogging.class
@@ -79,7 +84,9 @@ REMEMod\vfx\ShadowStrikeEffect.class
 REMEMod\Patches\SoundMasterplayPatch.class
 REMEMod\Actions\DrawPileToDiscardAction.class
 REMEMod\Cards\Red\Power\Cut.class
+REMEMod\Patches\BottledRelicPatch$MakeStatEquivalentCopy.class
 REMEMod\Cards\Purple\Skill\Repentance.class
+REMEMod\Powers\MagicShapingShieldPower.class
 REMEMod\Patches\SoundMasterUpdatePatch.class
 REMEMod\Relics\Rare\IWantAll$WantAllRenderPatch.class
 REMEMod\Cards\Red\Power\FearOfPain.class
@@ -95,6 +102,7 @@ REMEMod\Cards\Green\Skill\Seeding.class
 REMEMod\vfx\CthunAreaEffect.class
 REMEMod\Actions\MakeTempCardInHandSAction.class
 REMEMod\vfx\ExpungeVFXAction.class
+REMEMod\Relics\Uncommon\BottledBoat$1.class
 REMEMod\Patches\LimitBreakerPatch$stackPrePatch.class
 REMEMod\Cards\Purple\Skill\EmptyShield.class
 REMEMod\Actions\CutPowerAction.class
@@ -111,6 +119,7 @@ REMEMod\Cards\Colorless\Power\FirmDetermination.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform$OpenPotionPopUpPatch$Locator.class
 REMEMod\Patches\LimitBreakerPatch$reducePredPatch.class
 REMEMod\Powers\MusicOfDeathPower.class
+REMEMod\Powers\ColdReleasePower.class
 REMEMod\Powers\SelfUpgradePower.class
 REMEMod\Potions\GoldPotion.class
 REMEMod\Relics\Common\PuzzleBoxRelic.class
@@ -140,6 +149,7 @@ REMEMod\Relics\Uncommon\ArchaeologicalTools$ArchaeologicalTools3Patch.class
 REMEMod\Actions\CthunPiecesAction.class
 REMEMod\Patches\LimitBreakerPatch$stackPostdPatch.class
 REMEMod\Actions\WhirlingAction.class
+REMEMod\Cards\Red\Power\Unstoppable.class
 REMEMod\Actions\ShoggothAction.class
 REMEMod\Patches\IncrementDiscardPatch$DiscardPatch.class
 REMEMod\Relics\Shop\OnlineShoppingPlatform$SpendMoneyPatch.class
@@ -148,7 +158,9 @@ REMEMod\Powers\UploadPower.class
 REMEMod\Cards\Blue\Power\Upload.class
 REMEMod\Cards\Purple\Skill\WorshipGod.class
 REMEMod\Patches\LimitBreakerPatch$blockPostPatch.class
+REMEMod\Relics\Uncommon\BottledBoat.class
 REMEMod\vfx\ShadowBallEffect.class
+REMEMod\Patches\BottledRelicPatch$BottledField.class
 REMEMod\Cards\Colorless\Skill\ShortnessOfBreath.class
 REMEMod\Cards\Red\Attack\TheLastStrike.class
 REMEMod\Cards\Green\Skill\CopyPotion.class
@@ -171,6 +183,7 @@ REMEMod\Relics\Rare\IWantAll$WantAllOpenPatch.class
 REMEMod\vfx\FloatingCardEffect.class
 REMEMod\Cards\Red\Skill\Fury.class
 REMEMod\Actions\TheoryScryAction.class
+REMEMod\Relics\Rare\Singularity.class
 REMEMod\Relics\Uncommon\PoisonedDagger.class
 REMEMod\Cards\Colorless\Attack\HeartOfCthun.class
 REMEMod\Cards\Colorless\Skill\PuzzleBox.class
@@ -179,4 +192,5 @@ REMEMod\Relics\Shop\CardOfGreed.class
 REMEMod\Powers\LeechingPoisonPower.class
 REMEMod\Cards\Colorless\Power\AccumulateSteadily.class
 REMEMod\Cards\Red\Skill\Scribble.class
+REMEMod\vfx\SpectralBladeEffect.class
 REMEMod\Cards\Red\Attack\ResidualAnger.class

@@ -21,7 +21,7 @@ public class NightmareStrike extends CustomCard {
     public NightmareStrike() {
         super("REME_NightmareStrike", NAME, "remeImg/cards/NightmareStrike.png", 1, DESCRIPTION,
                 CardType.ATTACK, CardColor.RED, CardRarity.RARE, CardTarget.ENEMY);
-        this.damage = this.baseDamage = 9;
+        this.damage = this.baseDamage = 11;
         this.baseMagicNumber = this.magicNumber = 1;
         this.tags.add(CardTags.STRIKE);
         this.cardsToPreview = new Dark();
