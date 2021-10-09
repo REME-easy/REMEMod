@@ -160,7 +160,8 @@
     "DESCRIPTION": "Gain !M! Block for each empty position in your hand.",
     "EXTENDED_DESCRIPTION": [
       " NL (Gain !B! Block.)"
-    ]
+    ],
+    "UPGRADE_DESCRIPTION": "Retain. NL Gain !M! Block for each empty position in your hand."
   },
   "REME_SpectralBlade": {
     "NAME": "Spectral Blade",
